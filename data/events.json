@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "B-Boy City Battle",
+    "date": "2025-01-10",
+    "location": "Berlin, Germany",
+    "description": "A major regional breaking event featuring top crews."
+  },
+  {
+    "id": "2",
+    "name": "Red Bull BC One Qualifiers",
+    "date": "2025-01-15",
+    "location": "New York, USA",
+    "description": "Preliminary qualifiers for Red Bull BC One."
+  },
+  {
+    "id": "3",
+    "name": "Local Jam Session",
+    "date": "2025-01-15",
+    "location": "Tokyo, Japan",
+    "description": "A casual jam for local breakers and newcomers."
+  },
+  {
+    "id": "1",
+    "name": "B-Boy City Battle",
+    "date": "2025-01-10",
+    "location": "Berlin, Germany",
+    "description": "A major regional breaking event featuring top crews."
+  },
+  {
+    "id": "2",
+    "name": "Red Bull BC One Qualifiers",
+    "date": "2025-01-15",
+    "location": "New York, USA",
+    "description": "Preliminary qualifiers for Red Bull BC One."
+  },
+  {
+    "id": "3",
+    "name": "Local Jam Session",
+    "date": "2025-01-15",
+    "location": "Tokyo, Japan",
+    "description": "A casual jam for local breakers and newcomers."
+  },
+  {
+    "id": "1",
+    "name": "B-Boy City Battle",
+    "date": "2025-01-10",
+    "location": "Berlin, Germany",
+    "description": "A major regional breaking event featuring top crews."
+  },
+  {
+    "id": "2",
+    "name": "Red Bull BC One Qualifiers",
+    "date": "2025-01-15",
+    "location": "New York, USA",
+    "description": "Preliminary qualifiers for Red Bull BC One."
+  },
+  {
+    "id": "3",
+    "name": "Local Jam Session",
+    "date": "2025-01-15",
+    "location": "Tokyo, Japan",
+    "description": "A casual jam for local breakers and newcomers."
+  },
+  {
+    "id": "1",
+    "name": "B-Boy City Battle",
+    "date": "2025-01-10",
+    "location": "Berlin, Germany",
+    "description": "A major regional breaking event featuring top crews."
+  },
+  {
+    "id": "2",
+    "name": "Red Bull BC One Qualifiers",
+    "date": "2025-01-15",
+    "location": "New York, USA",
+    "description": "Preliminary qualifiers for Red Bull BC One."
+  },
+  {
+    "id": "3",
+    "name": "Local Jam Session",
+    "date": "2025-01-15",
+    "location": "Tokyo, Japan",
+    "description": "A casual jam for local breakers and newcomers."
+  }
+]
