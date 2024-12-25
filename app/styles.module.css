@@ -1,0 +1,42 @@
+/* app/styles.module.css */
+/* app/layout.module.css */
+
+/* The navigation bar at the top */
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Each <li> item in the nav */
+.navItem {
+  float: left;
+}
+
+/* The <a> link in each nav item */
+.navLink {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover (except on .active) */
+.navLink:hover:not(.active) {
+  background-color: #ddd; /* light gray */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
