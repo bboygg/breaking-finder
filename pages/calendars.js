@@ -139,6 +139,10 @@ export default function CalendarsPage({ events }) {
                 <strong>{e.name}</strong><br />
                 {e.location}<br />
                 <small>{e.description}</small>
+                <p>
+                link:{" "}
+                <a href={e.url} target="_blank" rel="noopener noreferrer">{e.url}</a>
+                </p>
               </li>
             ))}
           </ul>

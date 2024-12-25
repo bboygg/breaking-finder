@@ -16,29 +16,26 @@ export async function getStaticProps() {
 export default function Home({ highlightedEvents }) {
   return (
     <>      
-      <h1>Find My Battle</h1>
-      <p>Discover breaking battles, jams, and competitions worldwide. Stay up-to-date with the latest events and never miss your crew’s next challenge.</p>
-      
+      <section>
+        <h2>About Find My Battle</h2>
+        <p>Discover breaking battles, jams, and competitions based in South Korea. Stay up-to-date with the latest events and never miss your battle</p>
+        <p>This platform helps you track upcoming battles, from underground sessions to major international competitions.</p>
+      </section>
       <p>
         <a href="/events" role="button">Explore Events</a>
         {' '}
         <a href="/calendars" role="button" className="secondary">View Calendar</a>
-      </p>
-
+      </p>      
       <section>
-        <h2>About Breaking Events</h2>
-        <p>Breaking (B-Boying/B-Girling) is a dynamic street dance from the hip-hop culture. 
-          This platform helps you track upcoming battles, from underground sessions to major international competitions.</p>
-      </section>
-      
-      <section>
-        <h2>Highlighted Upcoming Battles</h2>
+        <h2>Upcoming Battles</h2>
         <ul>
           {highlightedEvents.map(event => (
             <li key={event.id}>
               <strong>{event.name}</strong><br />
-              {event.date} - {event.location}<br />
-              <small>{event.description}</small>
+              {event.date} | {event.location}<br />
+              <small>
+                link: <a href={event.url} target="_blank" rel="noopener noreferrer">{event.url}</a>
+              </small>
             </li>
           ))}
         </ul>

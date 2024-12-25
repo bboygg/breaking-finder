@@ -1,86 +1,30 @@
 [
   {
     "id": "1",
-    "name": "B-Boy City Battle",
-    "date": "2025-01-10",
-    "location": "Berlin, Germany",
-    "description": "A major regional breaking event featuring top crews."
+    "name": "Haebangchon Session VOL.3",
+    "date": "2025-01-01",
+    "location": "Seoul, South Korea",
+    "address": "서울시 용산구 신흥로 37 3F 지니펍",
+    "description": "1:1 BREAKING BATTLE",
+    "url": "https://www.instagram.com/reel/DDkS83gTPLW/"
   },
   {
     "id": "2",
-    "name": "Red Bull BC One Qualifiers",
-    "date": "2025-01-15",
-    "location": "New York, USA",
-    "description": "Preliminary qualifiers for Red Bull BC One."
+    "name": "[#X2 : SOOP DANCE BATTLE] VOL.5",
+    "date": "2025-01-18",
+    "location": "Seoul, South Korea",
+    "address": " 비타500콜로세움(롯데월드 지하1층)",
+    "description": "BREAKING 3 ON 3 BATTLE",
+    "url": "https://www.instagram.com/p/DD-8aPyTzLS/"
   },
   {
     "id": "3",
-    "name": "Local Jam Session",
-    "date": "2025-01-15",
-    "location": "Tokyo, Japan",
-    "description": "A casual jam for local breakers and newcomers."
-  },
-  {
-    "id": "1",
-    "name": "B-Boy City Battle",
-    "date": "2025-01-10",
-    "location": "Berlin, Germany",
-    "description": "A major regional breaking event featuring top crews."
-  },
-  {
-    "id": "2",
-    "name": "Red Bull BC One Qualifiers",
-    "date": "2025-01-15",
-    "location": "New York, USA",
-    "description": "Preliminary qualifiers for Red Bull BC One."
-  },
-  {
-    "id": "3",
-    "name": "Local Jam Session",
-    "date": "2025-01-15",
-    "location": "Tokyo, Japan",
-    "description": "A casual jam for local breakers and newcomers."
-  },
-  {
-    "id": "1",
-    "name": "B-Boy City Battle",
-    "date": "2025-01-10",
-    "location": "Berlin, Germany",
-    "description": "A major regional breaking event featuring top crews."
-  },
-  {
-    "id": "2",
-    "name": "Red Bull BC One Qualifiers",
-    "date": "2025-01-15",
-    "location": "New York, USA",
-    "description": "Preliminary qualifiers for Red Bull BC One."
-  },
-  {
-    "id": "3",
-    "name": "Local Jam Session",
-    "date": "2025-01-15",
-    "location": "Tokyo, Japan",
-    "description": "A casual jam for local breakers and newcomers."
-  },
-  {
-    "id": "1",
-    "name": "B-Boy City Battle",
-    "date": "2025-01-10",
-    "location": "Berlin, Germany",
-    "description": "A major regional breaking event featuring top crews."
-  },
-  {
-    "id": "2",
-    "name": "Red Bull BC One Qualifiers",
-    "date": "2025-01-15",
-    "location": "New York, USA",
-    "description": "Preliminary qualifiers for Red Bull BC One."
-  },
-  {
-    "id": "3",
-    "name": "Local Jam Session",
-    "date": "2025-01-15",
-    "location": "Tokyo, Japan",
-    "description": "A casual jam for local breakers and newcomers."
+    "name": "Real bronx vol.5 5th anniversary",
+    "date": "2025-02-01",
+    "location": "Seoul, South Korea",
+    "address": "천안 더 케이 댄스 스튜디오 2층 ( 봉정로 74 ) 74, Bongjeong-ro, Dongnam-gu, Cheonan-si, Chungcheongnam-do",
+    "description": "2 vs 2 Breaking Battle, SEVEN TO SMOKE",
+    "url": "https://www.instagram.com/p/DDw6eUKTWr2/"
   }
+
 ]

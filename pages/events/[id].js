@@ -29,7 +29,9 @@ export default function EventDetailPage({ event }) {
       <h1>{event.name}</h1>
       <p><strong>Date:</strong> {event.date}</p>
       <p><strong>Location:</strong> {event.location}</p>
+      <p><strong>Address:</strong> {event.address}</p>
       <p>{event.description}</p>
+      <small>link: <a href={event.url} target="_blank" rel="noopener noreferrer">{event.url}</a></small><br/><br/>
       <a href="/events">← Back to Events</a>
     </>
   );

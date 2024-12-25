@@ -15,15 +15,20 @@ export async function getStaticProps() {
 export default function EventsPage({ events }) {
   return (
     <>
-      <h1>All Upcoming Events</h1>
+      <h1>All Events</h1>
       <ul>
         {events.map(event => (
           <li key={event.id}>
             <Link href={`/events/${event.id}`}>
               <strong>{event.name}</strong>
             </Link><br />
-            {event.date} - {event.location}<br />
+            {event.date} | {event.location}<br />
             <small>{event.description}</small>
+            <p>
+                link:{" "}
+                <a href={event.url} target="_blank" rel="noopener noreferrer">{event.url}</a>
+            </p>
+
           </li>
         ))}
       </ul>
