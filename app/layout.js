@@ -1,7 +1,7 @@
 // app/layout.js
 import Link from 'next/link';
-import '../styles/global.css'
 import styles from './styles.module.css'
+import './global.css'
 
 export const metadata = {
   title: {
@@ -31,8 +31,9 @@ export default function RootLayout({ children }) {
         <main style={{marginTop: '50px'}}>
           {children}
         </main>
+        
         <footer className={styles.footer}>
-          <hr />
+          <hr/>
           <p>&copy; {new Date().getFullYear()} Find My Battle</p>
         </footer>
       </body>
