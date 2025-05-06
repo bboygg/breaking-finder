@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import styles from '../styles.module.css';
+import Link from 'next/link';
 
 export default function Page() {
   const [highlightedEvents, setHighlightedEvents] = useState([]);
@@ -65,9 +66,9 @@ export default function Page() {
               <tr key={event.id}>
                 <td>{event.date}</td>
                 <td>
-                  <a href={event.url} target="_blank" rel="noopener noreferrer" className={styles.eventLink}>
+                  <Link href={event.url} target="_blank" rel="noopener noreferrer" className={styles.eventLink}>
                     {event.name}
-                  </a>
+                  </Link>
                 </td>
                 <td>{event.location}</td>
               </tr>
