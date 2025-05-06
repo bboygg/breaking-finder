@@ -47,7 +47,7 @@ export default function Page() {
           Find breaking events and connect with the breaking community in Korea
         </p>
         <div className={styles.buttonGroup}>
-          <a href="/events" className={styles.button}>Explore Events</a>
+          <Link href="/events" className={styles.button}>Explore Events</Link>
         </div>
       </div>
       
