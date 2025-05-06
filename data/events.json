@@ -1,30 +1,47 @@
 [
   {
     "id": "1",
-    "name": "Haebangchon Session VOL.3",
-    "date": "2025-01-01",
-    "location": "Seoul, South Korea",
-    "address": "서울시 용산구 신흥로 37 3F 지니펍",
-    "description": "1:1 BREAKING BATTLE",
-    "url": "https://www.instagram.com/reel/DDkS83gTPLW/"
+    "name": "SHAKE BODY vol.3",
+    "date": "2025-05-10",
+    "location": "Changwon‑si, Gyeongsangnam‑do, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DIP_vglSP7z",
+    "description": null
   },
   {
     "id": "2",
-    "name": "[#X2 : SOOP DANCE BATTLE] VOL.5",
-    "date": "2025-01-18",
-    "location": "Seoul, South Korea",
-    "address": " 비타500콜로세움(롯데월드 지하1층)",
-    "description": "BREAKING 3 ON 3 BATTLE",
-    "url": "https://www.instagram.com/p/DD-8aPyTzLS/"
+    "name": "CIRCLE VIBES 🎱 CHAPTER 2",
+    "date": "2025-05-11",
+    "location": "Gunpo-si Gyeonggi-do, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DITUTgOz5rd",
+    "description": null
   },
   {
     "id": "3",
-    "name": "Real bronx vol.5 5th anniversary",
-    "date": "2025-02-01",
+    "name": "2025 Breaking K 시리즈 1차 대회",
+    "date": "2025-05-17",
     "location": "Seoul, South Korea",
-    "address": "천안 더 케이 댄스 스튜디오 2층 ( 봉정로 74 ) 74, Bongjeong-ro, Dongnam-gu, Cheonan-si, Chungcheongnam-do",
-    "description": "2 vs 2 Breaking Battle, SEVEN TO SMOKE",
-    "url": "https://www.instagram.com/p/DDw6eUKTWr2/"
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DHvEotLzsdw",
+    "description": null
+  },
+  {
+    "id": "4",
+    "name": "B-ON TOP VOL.45",
+    "date": "2025-05-17",
+    "location": "Seoul, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/breakingontop/",
+    "description": null
+  },
+  {
+    "id": "5",
+    "name": "2025 JEONJU B-BOY GRAND PRIX",
+    "date": "2025-05-24",
+    "location": "Jeonju-si, Jeollanam-do, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DIyInP7TpM6",
+    "description": null
   }
-
 ]
