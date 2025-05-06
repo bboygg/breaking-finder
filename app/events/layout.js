@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'All Events',
+  description: 'Browse all upcoming breaking events'
+};
+
 export default function EventsLayout({ children }) {
-    return <section>{children}</section>
-  }
+  return children;
+}

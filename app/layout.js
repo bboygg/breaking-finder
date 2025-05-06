@@ -5,9 +5,9 @@ import './global.css'
 
 export const metadata = {
   title: {
-    default: 'Find My Battle',
-    template: '%s | Find My Battle'
-    }
+    default: 'Breaking Finder',
+    template: '%s | Breaking Finder'
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -15,26 +15,25 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {/* Navigation Bar */}
-        <ul className={styles.navBar}>
-          <li className={styles.navItem}>
+        <nav className={styles.navBar}>
+          <div className={styles.navLeft}>
             <Link href="/" className={styles.navLink}>
-              Find My Battle
+              Breaking Finder
             </Link>
-          </li>
-          <li className={styles.navItem}>
+          </div>
+          <div className={styles.navLeft}>
             <Link href="/events" className={styles.navLink}>
               Events
             </Link>
-          </li>
-        </ul>
+          </div>
+        </nav>
 
-        <main style={{marginTop: '50px'}}>
+        <main style={{marginTop: '30px'}}>
           {children}
         </main>
         
         <footer className={styles.footer}>
-          <hr/>
-          <p>&copy; {new Date().getFullYear()} Find My Battle</p>
+          <p>&copy; {new Date().getFullYear()} Breaking Finder</p>
         </footer>
       </body>
     </html>
