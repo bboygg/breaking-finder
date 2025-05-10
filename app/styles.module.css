@@ -4,7 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 1rem;
   background-color: #f3f3f3;
   position: fixed;
   top: 0;
@@ -12,12 +12,13 @@
   height: 50px;
   box-sizing: border-box;
   gap: 0;
+  z-index: 1000;
 }
 
 .navLeft {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 1rem;
 }
 
 .navRight {
@@ -62,8 +63,9 @@
 .main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  min-height: calc(100vh - 200px); /* Account for nav and footer */
+  padding: 1rem;
+  min-height: calc(100vh - 200px);
+  width: 100%;
 }
 
 .buttonGroup {
@@ -452,4 +454,81 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .navBar {
+    padding: 0 0.5rem;
+  }
+
+  .navLeft {
+    gap: 0.5rem;
+  }
+
+  .navLink {
+    padding: 14px 8px;
+    font-size: 0.9rem;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .eventGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .eventCard {
+    padding: 1rem;
+  }
+
+  .eventInfo {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .eventsTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .contactForm {
+    padding: 1rem;
+  }
+
+  .formInput,
+  .formTextarea {
+    width: 100%;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .pageNumbers {
+    display: none;
+  }
 }
