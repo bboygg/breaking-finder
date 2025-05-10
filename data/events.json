@@ -29,7 +29,7 @@
   {
     "id": "4",
     "name": "B-ON TOP VOL.45",
-    "date": "2025-05-17",
+    "date": "2025-06-14",
     "location": "Seoul, South Korea",
     "category": "Battle",
     "url": "https://www.instagram.com/breakingontop/",
@@ -39,9 +39,18 @@
     "id": "5",
     "name": "2025 JEONJU B-BOY GRAND PRIX",
     "date": "2025-05-24",
-    "location": "Jeonju-si, Jeollanam-do, South Korea",
+    "location": "Jeonju-si, Jeollabuk-do, South Korea",
     "category": "Battle",
     "url": "https://www.instagram.com/p/DIyInP7TpM6",
+    "description": null
+  },
+  {
+    "id": "6",
+    "name": "SOULHUNTERZ 20th BREAKIN BATTLE",
+    "date": "2025-06-17",
+    "location": "Jeonju-si, Jeollabuk-do, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DJY1RWXT6zI",
     "description": null
   }
 ]

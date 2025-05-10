@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'All Events',
+  title: 'Events',
   description: 'Browse all upcoming breaking events'
 };
 

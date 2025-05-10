@@ -4,15 +4,22 @@ import styles from './styles.module.css'
 import './global.css'
 
 export const metadata = {
-  title: {
+  title:  {
     default: 'Breaking Finder',
     template: '%s | Breaking Finder'
-  }
+    },
+  description: 'Discover breaking battles, chypher, and worshops and more. Stay up-to-date with the breaking community.',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  themeColor: '#ffffff'
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body>
         {/* Navigation Bar */}
         <nav className={styles.navBar}>
@@ -20,8 +27,6 @@ export default function RootLayout({ children }) {
             <Link href="/" className={styles.navLink}>
               Breaking Finder
             </Link>
-          </div>
-          <div className={styles.navLeft}>
             <Link href="/events" className={styles.navLink}>
               Events
             </Link>
