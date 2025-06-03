@@ -47,10 +47,28 @@
   {
     "id": "6",
     "name": "SOULHUNTERZ 20th BREAKIN BATTLE",
-    "date": "2025-06-17",
+    "date": "2025-06-07",
     "location": "Jeonju-si, Jeollabuk-do, South Korea",
     "category": "Battle",
     "url": "https://www.instagram.com/p/DJY1RWXT6zI",
+    "description": null
+  },
+  {
+    "id": "7",
+    "name": "시흥 브레이킹 배틀 2025",
+    "date": "2025-06-08",
+    "location": "Siheung-si, Gyeonggi-do, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DJtjCq2z84F",
+    "description": null
+  },
+  {
+    "id": "8",
+    "name": "SEOUL SUMMER VIBE - 8 Dance on Stage",
+    "date": "2025-06-14",
+    "location": "Seoul, South Korea",
+    "category": "Battle",
+    "url": "https://www.instagram.com/p/DJA1E36MoJB",
     "description": null
   }
 ]
