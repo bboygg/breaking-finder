@@ -402,7 +402,7 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .eventsTable th {
@@ -436,7 +436,7 @@
   max-width: 700px;
   margin: 1rem auto;
   font-size: 1rem;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .section .eventsTable th,
@@ -447,8 +447,8 @@
 }
 
 .section .eventsTable th:nth-child(1) { width: 120px; } /* Date */
-.section .eventsTable th:nth-child(2) { width: 300px; } /* Name */
-.section .eventsTable th:nth-child(3) { width: 400px; } /* Location */
+.section .eventsTable th:nth-child(2) { width: 400px; } /* Name */
+.section .eventsTable th:nth-child(3) { width: 500px; } /* Location */
 
 .section .eventsTable td {
   white-space: nowrap;
