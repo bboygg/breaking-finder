@@ -1,18 +1,21 @@
-import fs from 'fs';
-import path from 'path';
+import { supabase } from '../../lib/supabase';
 import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const eventsFilePath = path.join(process.cwd(), 'data', 'events.json');
-    const eventsData = JSON.parse(fs.readFileSync(eventsFilePath, 'utf-8'));
-    
-    return NextResponse.json(eventsData);
+    const { data: events, error } = await supabase
+      .from('events')
+      .select('*')
+      .order('date', { ascending: true });
+
+    if (error) throw error;
+
+    return NextResponse.json(events);
   } catch (error) {
-    console.error('Error reading events:', error);
+    console.error('Error fetching events:', error);
     return NextResponse.json(
       { error: 'Failed to fetch events' },
       { status: 500 }
     );
   }
-} 
+}
