@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import styles from '../styles.module.css';
 
@@ -14,7 +15,7 @@ export default function DateFilter({ lang, t }) {
     } else {
       params.delete(name);
     }
-    params.set('page', '1'); // 필터 변경 시 1페이지로 이동
+    params.set('page', '1');
     router.push(`/events?${params.toString()}`);
   };
 

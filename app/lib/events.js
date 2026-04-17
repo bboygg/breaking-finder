@@ -18,8 +18,7 @@ export async function getEvents() {
     // Ensure data consistency (Mapping prod data to our required schema)
     return rawData.map(event => ({
       id: event.id || Math.random().toString(36).substr(2, 9),
-      status: event.status || 'Done', // Prod data default to Done as requested
-      hasPrize: event.hasPrize ?? false,
+      status: event.status || 'Done',
       startDate: event.startDate || event.date || '',
       endDate: event.endDate || event.date || '',
       isMultiDay: event.isMultiDay ?? false,
@@ -31,7 +30,7 @@ export async function getEvents() {
         start: event.registration?.start || '',
         end: event.registration?.end || ''
       },
-      type: event.type || 'Others',
+      category: event.category || event.type || 'Others',
       formats: Array.isArray(event.formats) ? event.formats : [],
       name: {
         ko: event.name?.ko || event.name || '',
@@ -39,8 +38,8 @@ export async function getEvents() {
       },
       location: {
         venue: {
-          ko: event.location?.venue?.ko || event.location?.venue || 'TBA',
-          en: event.location?.venue?.en || event.location?.venue || 'TBA'
+          ko: event.location?.venue?.ko || event.location?.venue || 'NA',
+          en: event.location?.venue?.en || event.location?.venue || 'NA'
         },
         city: {
           ko: event.location?.city?.ko || event.location?.city || '',
@@ -51,11 +50,7 @@ export async function getEvents() {
           en: event.location?.country?.en || event.location?.country || ''
         }
       },
-      url: event.url || '#',
-      description: {
-        ko: event.description?.ko || '',
-        en: event.description?.en || ''
-      }
+      url: event.url || '#'
     }));
   } catch (error) {
     console.error(`Error loading events from ${fileName}:`, error);

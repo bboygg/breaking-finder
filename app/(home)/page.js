@@ -3,7 +3,8 @@ import styles from '../styles.module.css';
 import { getEvents } from '../lib/events';
 
 export default async function Page({ searchParams }) {
-  const { lang = 'ko' } = await searchParams;
+  const params = await searchParams;
+  const lang = params.lang || 'en';
   const eventsData = await getEvents();
 
   // Filter for upcoming events and sort by date
@@ -55,7 +56,7 @@ export default async function Page({ searchParams }) {
             >
               <div className={styles.cardMain}>
                 <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                  <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>{event.type}</span>
+                  <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>{event.category}</span>
                   <span className={`${styles.badge} ${styles['status-' + event.status.toLowerCase()]}`} style={{ fontSize: '0.65rem' }}>{event.status}</span>
                 </div>
                 <h3 className={styles.cardTitle}>{event.name[lang] || event.name.en}</h3>

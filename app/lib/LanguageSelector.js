@@ -9,7 +9,7 @@ export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const searchParams = useSearchParams();
   const pathname = usePathname();
-  const currentLang = searchParams.get('lang') || 'ko';
+  const currentLang = searchParams.get('lang') || 'en';
 
   const createQueryString = (lang) => {
     const params = new URLSearchParams(searchParams);

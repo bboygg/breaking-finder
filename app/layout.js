@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import { Suspense } from 'react';
 import styles from './styles.module.css'
 import './global.css'
 import LanguageSelector from './lib/LanguageSelector';
+import NavLinks from './lib/NavLinks';
 
 export const metadata = {
   title:  {
@@ -24,14 +24,9 @@ export default function RootLayout({ children }) {
     <html lang="ko">
       <body>
         <nav className={styles.navBar}>
-          <div className={styles.navLeft}>
-            <Link href="/" className={styles.navLink} style={{ color: '#000', fontSize: '1.1rem', fontWeight: '800' }}>
-              Breaking Finder
-            </Link>
-            <Link href="/events" className={styles.navLink} style={{ marginLeft: '2rem' }}>
-              Events
-            </Link>
-          </div>
+          <Suspense fallback={<div className={styles.navLeft}>Breaking Finder</div>}>
+            <NavLinks />
+          </Suspense>
           <div className={styles.navRight}>
             <Suspense fallback={<div className={styles.langGlobeButton}>🌐</div>}>
               <LanguageSelector />
