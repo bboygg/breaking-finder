@@ -346,7 +346,7 @@
 .detailCard {
   max-width: 800px;
   margin: 2rem auto;
-  padding: 3rem;
+  padding: 3rem 2rem; /* Adjusted padding */
   background: #fff;
   border-radius: 16px;
   border: 1px solid #eee;
@@ -354,24 +354,29 @@
 }
 
 .detailHeader {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   border-bottom: 1px solid #eee;
   padding-bottom: 1.5rem;
   text-align: center;
 }
 
-.detailHeader h1 { font-size: 2.2rem; font-weight: 800; margin-top: 1rem; }
+.detailHeader h1 { 
+  font-size: 2rem; /* Slightly smaller for mobile */
+  font-weight: 800; 
+  margin-top: 1rem;
+  line-height: 1.2;
+}
 
 .detailBox {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: 1rem; /* Smaller gap for mobile */
   margin-bottom: 3rem;
 }
 
 .detailItem {
-  background: #fff; /* Strictly White */
-  padding: 1rem 1.5rem; /* Smaller height */
+  background: #fff;
+  padding: 1rem; /* Smaller padding */
   border-radius: 12px;
   border: 1px solid #f3f4f6;
   display: flex;
@@ -379,6 +384,7 @@
   gap: 0.4rem;
   align-items: center;
   text-align: center;
+  word-break: break-word; /* Prevent overflow */
 }
 
 .detailItemLabel {

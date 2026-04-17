@@ -19,7 +19,7 @@ export default async function EventDetailPage({ params, searchParams }) {
       back: '↩ 목록으로 돌아가기',
       visit: '공식 링크 방문하기',
       date: '날짜',
-      time: '진행 시간',
+      time: '시간',
       reg_date: '참가 접수',
       location: '도시/국가',
       venue: '장소',
@@ -31,7 +31,7 @@ export default async function EventDetailPage({ params, searchParams }) {
       back: '↩ Back to List',
       visit: 'Visit Event Link',
       date: 'Date',
-      time: 'Event Time',
+      time: 'Time',
       reg_date: 'Registration',
       location: 'Location',
       venue: 'Venue',
@@ -111,10 +111,6 @@ export default async function EventDetailPage({ params, searchParams }) {
             <span className={styles.detailItemLabel}>{t.reg_date}</span>
             <div className={styles.detailItemValue}>{event.registration.start} ~ {event.registration.end}</div>
           </div>
-        </div>
-
-        <div className={styles.detailDescription}>
-          <p style={{ margin: '0' }}>{event.description?.[lang] || event.description?.en}</p>
         </div>
 
         <div style={{ textAlign: 'center' }}>
