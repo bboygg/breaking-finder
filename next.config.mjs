@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    i18n: {        
-        locales: ['en', 'kr'], // Locales we support in application
-        defaultLocale: 'en', // Default locale when visit the application
+    /* App Router handles i18n differently, removed legacy i18n config */
+    output: 'standalone', // Optimization for build traces
+    images: {
+        unoptimized: true, // Sustainable SSG doesn't need image optimization server
     },
 };
 

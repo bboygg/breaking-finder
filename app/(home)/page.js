@@ -1,80 +1,86 @@
-// app/page.js
-'use client';
-
-import { useState, useEffect } from 'react';
-import styles from '../styles.module.css';
 import Link from 'next/link';
+import styles from '../styles.module.css';
+import { getEvents } from '../lib/events';
 
-export default function Page() {
-  const [highlightedEvents, setHighlightedEvents] = useState([]);
-  const [loading, setLoading] = useState(true);
+export default async function Page({ searchParams }) {
+  const { lang = 'ko' } = await searchParams;
+  const eventsData = await getEvents();
 
-  useEffect(() => {
-    const fetchEvents = async () => {
-      try {
-        const response = await fetch('/api/events');
-        const data = await response.json();
-        
-        // Sort by date and get 3 most recent events
-        const sortedEvents = data
-          .filter(e => Date.parse(e.date) >= Date.now())
-          .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+  // Filter for upcoming events and sort by date
+  const upcomingEvents = [...eventsData]
+    .filter(e => new Date(e.startDate) >= new Date())
+    .sort((a, b) => new Date(a.startDate) - new Date(b.startDate))
+    .slice(0, 3);
 
-        setHighlightedEvents(sortedEvents.slice(0, 3));
-      } catch (error) {
-        console.error('Error fetching events:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
+  // If no upcoming events, just show the most recent ones
+  const highlightedEvents = upcomingEvents.length > 0 
+    ? upcomingEvents 
+    : [...eventsData].sort((a, b) => new Date(b.startDate) - new Date(a.startDate)).slice(0, 3);
 
-    fetchEvents();
-  }, []);
-
-  if (loading) {
-    return (
-      <main className={styles.main}>
-        <div className={styles.loading}>Loading events...</div>
-      </main>
-    );
-  }
+  const t = {
+    ko: {
+      title: 'Breaking Finder',
+      description: '브레이킹 배틀 검색 쉽고 빠르게',
+      explore: '행사 탐색하기',
+      highlighted: '주요 행사',
+    },
+    en: {
+      title: 'Breaking Finder',
+      description: 'Discover Breaking Battles Quickly and Easily',
+      explore: 'Explore Events',
+      highlighted: 'HIGHLIGHTED EVENTS',
+    }
+  }[lang];
 
   return (
     <main className={styles.main}>
       <div className={styles.hero}>
-        <h1 className={styles.title}>Breaking Finder</h1>
-        <p className={styles.description}>
-          Find breaking events and connect with the breaking community in Korea
-        </p>
-        <div className={styles.buttonGroup}>
-          <Link href="/events" className={styles.button}>Explore Events</Link>
+        <h1 className={styles.title}>{t.title}</h1>
+        <p className={styles.description}>{t.description}</p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+          <Link href={`/events?lang=${lang}`} className={styles.button} style={{ padding: '1rem 3rem', fontSize: '1.1rem', background: '#000', color: '#fff', textDecoration: 'none', borderRadius: '12px', fontWeight: '800' }}>
+            {t.explore}
+          </Link>
         </div>
       </div>
       
-      <section className={styles.section}>
-        <h2>Highlighted Events</h2>
-        <table className={styles.eventsTable}>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Name</th>
-              <th>Location</th>
-            </tr>
-          </thead>
-          <tbody>
-            {highlightedEvents.map(event => (
-              <tr key={event.id}>
-                <td>{event.date}</td>
-                <td>
-                  <Link href={event.url} target="_blank" rel="noopener noreferrer" className={styles.eventLink}>
-                    {event.name}
-                  </Link>
-                </td>
-                <td>{event.location}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <section className={styles.highlightSection}>
+        <h2 className={styles.highlightHeading}>{t.highlighted}</h2>
+        <div className={styles.highlightList}>
+          {highlightedEvents.map(event => (
+            <Link 
+              key={event.id} 
+              href={`/events/${event.id}?lang=${lang}`} 
+              className={styles.highlightCard}
+            >
+              <div className={styles.cardMain}>
+                <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                  <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>{event.type}</span>
+                  <span className={`${styles.badge} ${styles['status-' + event.status.toLowerCase()]}`} style={{ fontSize: '0.65rem' }}>{event.status}</span>
+                </div>
+                <h3 className={styles.cardTitle}>{event.name[lang] || event.name.en}</h3>
+                <div className={styles.cardMeta} style={{ fontSize: '1rem' }}>
+                  <span>📍 {event.location.city[lang]}, {event.location.country[lang]}</span>
+                  <span>🏢 {event.location.venue[lang]}</span>
+                </div>
+                <div className={styles.cardBadgeGroup} style={{ marginTop: '1rem' }}>
+                  {event.formats.map(format => (
+                    <span key={format} className={`${styles.badge} ${styles['badge-format']}`} style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}>
+                      {format}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              
+              <div className={styles.cardSide}>
+                <span className={styles.cardDate}>
+                  {event.startDate}
+                  {event.isMultiDay && <span style={{ display: 'block', fontSize: '0.8rem', color: '#999' }}>~ {event.endDate}</span>}
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   );
