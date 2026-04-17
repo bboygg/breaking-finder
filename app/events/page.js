@@ -9,23 +9,23 @@ const ITEMS_PER_PAGE = 10;
 
 export default async function EventsPage({ searchParams }) {
   const params = await searchParams;
-  const lang = params.lang || 'ko';
+  const lang = params.lang || 'en';
   const sort = params.sort || 'desc';
-  const type = params.type || '';
+  const category = params.category || '';
   const format = params.format || '';
   const page = parseInt(params.page || '1');
   const startDate = params.startDate || '';
   const endDate = params.endDate || '';
   
   const eventsData = await getEvents();
-  const activeTypes = type ? type.split(',') : [];
+  const activeCategories = category ? category.split(',') : [];
   const activeFormats = format ? format.split(',') : [];
 
   // Filtering
   let filteredEvents = [...eventsData];
   
-  if (activeTypes.length > 0) {
-    filteredEvents = filteredEvents.filter(e => activeTypes.includes(e.type));
+  if (activeCategories.length > 0) {
+    filteredEvents = filteredEvents.filter(e => activeCategories.includes(e.category));
   }
   if (activeFormats.length > 0) {
     filteredEvents = filteredEvents.filter(e => e.formats.some(f => activeFormats.includes(f)));
@@ -48,13 +48,13 @@ export default async function EventsPage({ searchParams }) {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const paginatedEvents = filteredEvents.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-  const typesPool = ["Battle", "Workshop", "Jam", "Cypher", "Others"];
+  const categoriesPool = ["Battle", "Workshop", "Jam", "Cypher", "Others"];
   const formatsPool = ["1vs1", "2vs2", "3vs3", "4vs4", "Team", "7 to smoke", "Footwork", "Powermove", "Toprock", "B-Girls", "Kids", "Others"];
 
   const t = {
     ko: {
       title: '행사',
-      filter_type: '카테고리',
+      filter_cat: '카테고리',
       filter_format: '포맷',
       filter_date: '날짜 범위',
       from: '시작일',
@@ -69,7 +69,7 @@ export default async function EventsPage({ searchParams }) {
     },
     en: {
       title: 'Events',
-      filter_type: 'CATEGORY',
+      filter_cat: 'CATEGORY',
       filter_format: 'FORMAT',
       filter_date: 'DATE RANGE',
       from: 'From',
@@ -86,7 +86,7 @@ export default async function EventsPage({ searchParams }) {
 
   const buildUrl = (newParams) => {
     const current = new URLSearchParams({
-      lang, sort, type, format, startDate, endDate, page: currentPage.toString()
+      lang, sort, category, format, startDate, endDate, page: currentPage.toString()
     });
     Object.entries(newParams).forEach(([k, v]) => {
       if (v === null || v === '') current.delete(k);
@@ -103,13 +103,18 @@ export default async function EventsPage({ searchParams }) {
 
       <div className={styles.contentLayout}>
         <aside className={styles.sidebar}>
-          <FilterSection title={t.filter_type}>
+          <FilterSection title={t.filter_cat}>
             <div className={styles.checkboxGroup}>
-              {typesPool.map(item => {
-                const isActive = activeTypes.includes(item);
-                const newItems = isActive ? activeTypes.filter(i => i !== item) : [...activeTypes, item];
+              {categoriesPool.map(item => {
+                const isActive = activeCategories.includes(item);
+                const newItems = isActive ? activeCategories.filter(i => i !== item) : [...activeCategories, item];
                 return (
-                  <Link key={item} href={buildUrl({ type: newItems.join(','), page: 1 })} className={styles.checkboxLabel}>
+                  <Link 
+                    key={item} 
+                    href={buildUrl({ category: newItems.join(','), page: 1 })} 
+                    className={styles.checkboxLabel}
+                    scroll={false}
+                  >
                     <input type="checkbox" checked={isActive} readOnly className={styles.checkboxInput} />
                     {item}
                   </Link>
@@ -124,7 +129,12 @@ export default async function EventsPage({ searchParams }) {
                 const isActive = activeFormats.includes(item);
                 const newItems = isActive ? activeFormats.filter(i => i !== item) : [...activeFormats, item];
                 return (
-                  <Link key={item} href={buildUrl({ format: newItems.join(','), page: 1 })} className={styles.checkboxLabel}>
+                  <Link 
+                    key={item} 
+                    href={buildUrl({ format: newItems.join(','), page: 1 })} 
+                    className={styles.checkboxLabel}
+                    scroll={false}
+                  >
                     <input type="checkbox" checked={isActive} readOnly className={styles.checkboxInput} />
                     {item}
                   </Link>
@@ -141,12 +151,26 @@ export default async function EventsPage({ searchParams }) {
 
           <FilterSection title={t.sort_label}>
             <div className={styles.sortGroup}>
-              <Link href={buildUrl({ sort: 'desc', page: 1 })} className={`${styles.sortLink} ${sort === 'desc' ? styles.activeSort : ''}`}>{t.sort_newest}</Link>
-              <Link href={buildUrl({ sort: 'asc', page: 1 })} className={`${styles.sortLink} ${sort === 'asc' ? styles.activeSort : ''}`}>{t.sort_oldest}</Link>
+              <Link 
+                href={buildUrl({ sort: 'desc', page: 1 })} 
+                className={`${styles.sortLink} ${sort === 'desc' ? styles.activeSort : ''}`}
+                scroll={false}
+              >
+                {t.sort_newest}
+              </Link>
+              <Link 
+                href={buildUrl({ sort: 'asc', page: 1 })} 
+                className={`${styles.sortLink} ${sort === 'asc' ? styles.activeSort : ''}`}
+                scroll={false}
+              >
+                {t.sort_oldest}
+              </Link>
             </div>
           </FilterSection>
 
-          <Link href={`/events?lang=${lang}`} className={styles.clearFilters}>{t.clear}</Link>
+          <Link href={`/events?lang=${lang}`} className={styles.clearFilters} scroll={false}>
+            {t.clear}
+          </Link>
         </aside>
 
         <section>
@@ -160,7 +184,7 @@ export default async function EventsPage({ searchParams }) {
               <Link key={event.id} href={`/events/${event.id}?lang=${lang}`} className={styles.eventCard}>
                 <div className={styles.cardMain}>
                   <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                    <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>{event.type}</span>
+                    <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>{event.category}</span>
                     <span className={`${styles.badge} ${styles['status-' + event.status.toLowerCase()]}`} style={{ fontSize: '0.65rem' }}>{event.status}</span>
                   </div>
                   <h3 className={styles.cardTitle}>{event.name[lang] || event.name.en}</h3>
@@ -186,9 +210,9 @@ export default async function EventsPage({ searchParams }) {
 
           {totalPages > 1 && (
             <div className={styles.paginationContainer}>
-              <Link href={buildUrl({ page: currentPage - 1 })} className={`${styles.pageBtn} ${currentPage === 1 ? styles.disabledBtn : ''}`}>{t.prev}</Link>
+              <Link href={buildUrl({ page: currentPage - 1 })} className={`${styles.pageBtn} ${currentPage === 1 ? styles.disabledBtn : ''}`} scroll={false}>{t.prev}</Link>
               <div className={styles.pageIndicator}>{currentPage} / {totalPages}</div>
-              <Link href={buildUrl({ page: currentPage + 1 })} className={`${styles.pageBtn} ${currentPage === totalPages ? styles.disabledBtn : ''}`}>{t.next}</Link>
+              <Link href={buildUrl({ page: currentPage + 1 })} className={`${styles.pageBtn} ${currentPage === totalPages ? styles.disabledBtn : ''}`} scroll={false}>{t.next}</Link>
             </div>
           )}
         </section>

@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 
 export default async function EventDetailPage({ params, searchParams }) {
   const { id } = await params;
-  const { lang = 'ko' } = await searchParams;
+  const { lang = 'en' } = await searchParams;
   const event = await getEventById(id);
   if (!event) notFound();
 
@@ -19,7 +19,7 @@ export default async function EventDetailPage({ params, searchParams }) {
       back: '↩ 목록으로 돌아가기',
       visit: '공식 링크 방문하기',
       date: '날짜',
-      time: '시간',
+      time: '진행 시간',
       reg_date: '참가 접수',
       location: '도시/국가',
       venue: '장소',
@@ -31,7 +31,7 @@ export default async function EventDetailPage({ params, searchParams }) {
       back: '↩ Back to List',
       visit: 'Visit Event Link',
       date: 'Date',
-      time: 'Time',
+      time: 'Event Time',
       reg_date: 'Registration',
       location: 'Location',
       venue: 'Venue',
@@ -64,7 +64,7 @@ export default async function EventDetailPage({ params, searchParams }) {
             <span className={styles.detailItemLabel}>{t.type}</span>
             <div className={styles.detailItemValue}>
               <span className={`${styles.badge} ${styles['type-badge']}`} style={{ fontWeight: '800' }}>
-                {event.type}
+                {event.category}
               </span>
             </div>
           </div>
