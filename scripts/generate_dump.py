@@ -3,12 +3,12 @@ import os
 import random
 from datetime import datetime, timedelta
 
-DATA_FILE = os.path.join(os.path.dirname(__file__), '../data/events.json')
+# Mocking constants for the script
+CATEGORIES = ["Battle", "Workshop", "Jam", "Cypher", "Competition", "Others"];
+FORMATS = ["1vs1", "2vs2", "3vs3", "4vs4", "Team", "7 to smoke", "Footwork", "Powermove", "Toprock", "B-Girls", "Kids", "Others"];
+STATUSES = ["Standby", "Ongoing", "Done", "Cancelled"];
 
-# Updated pools
-categories_pool = ["Battle", "Workshop", "Jam", "Cypher", "Others"]
-formats_pool = ["1vs1", "2vs2", "3vs3", "4vs4", "Team", "7 to smoke", "Footwork", "Powermove", "Toprock", "B-Girls", "Kids", "Others"]
-status_pool = ["Standby", "Ongoing", "Done", "Cancelled"]
+DATA_FILE = os.path.join(os.path.dirname(__file__), '../data/events.json')
 
 cities_pool = [
     {"ko": "서울", "en": "Seoul", "country_ko": "대한민국", "country_en": "South Korea"},
@@ -31,9 +31,9 @@ def generate_data(count=100):
         reg_end = start_dt - timedelta(days=2)
         
         city = random.choice(cities_pool)
-        event_category = random.choice(categories_pool)
-        formats = random.sample(formats_pool, random.randint(1, 3))
-        status = random.choice(status_pool)
+        event_category = random.choice(CATEGORIES)
+        formats = random.sample(FORMATS, random.randint(1, 3))
+        status = random.choice(STATUSES)
         
         name_ko = f"{city['ko']} {event_category}".strip()
         name_en = f"{city['en']} {event_category}".strip()
@@ -71,4 +71,4 @@ def generate_data(count=100):
 
 if __name__ == "__main__":
     generate_data(100)
-    print("✅ Data updated: type -> category, removed description, NA venue.")
+    print("✅ Data updated: Included 'Competition' category.")

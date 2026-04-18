@@ -4,6 +4,7 @@ import styles from '../styles.module.css';
 import { getEvents } from '../lib/events';
 import DateFilter from '../lib/DateFilter';
 import FilterSection from '../lib/FilterSection';
+import { CATEGORIES, FORMATS } from '../lib/constants';
 
 const ITEMS_PER_PAGE = 10;
 
@@ -47,9 +48,6 @@ export default async function EventsPage({ searchParams }) {
   const currentPage = Math.min(Math.max(1, page), totalPages || 1);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const paginatedEvents = filteredEvents.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
-  const categoriesPool = ["Battle", "Workshop", "Jam", "Cypher", "Others"];
-  const formatsPool = ["1vs1", "2vs2", "3vs3", "4vs4", "Team", "7 to smoke", "Footwork", "Powermove", "Toprock", "B-Girls", "Kids", "Others"];
 
   const t = {
     ko: {
@@ -105,16 +103,11 @@ export default async function EventsPage({ searchParams }) {
         <aside className={styles.sidebar}>
           <FilterSection title={t.filter_cat}>
             <div className={styles.checkboxGroup}>
-              {categoriesPool.map(item => {
+              {CATEGORIES.map(item => {
                 const isActive = activeCategories.includes(item);
                 const newItems = isActive ? activeCategories.filter(i => i !== item) : [...activeCategories, item];
                 return (
-                  <Link 
-                    key={item} 
-                    href={buildUrl({ category: newItems.join(','), page: 1 })} 
-                    className={styles.checkboxLabel}
-                    scroll={false}
-                  >
+                  <Link key={item} href={buildUrl({ category: newItems.join(','), page: 1 })} className={styles.checkboxLabel} scroll={false}>
                     <input type="checkbox" checked={isActive} readOnly className={styles.checkboxInput} />
                     {item}
                   </Link>
@@ -125,16 +118,11 @@ export default async function EventsPage({ searchParams }) {
 
           <FilterSection title={t.filter_format}>
             <div className={styles.checkboxGroup}>
-              {formatsPool.map(item => {
+              {FORMATS.map(item => {
                 const isActive = activeFormats.includes(item);
                 const newItems = isActive ? activeFormats.filter(i => i !== item) : [...activeFormats, item];
                 return (
-                  <Link 
-                    key={item} 
-                    href={buildUrl({ format: newItems.join(','), page: 1 })} 
-                    className={styles.checkboxLabel}
-                    scroll={false}
-                  >
+                  <Link key={item} href={buildUrl({ format: newItems.join(','), page: 1 })} className={styles.checkboxLabel} scroll={false}>
                     <input type="checkbox" checked={isActive} readOnly className={styles.checkboxInput} />
                     {item}
                   </Link>
@@ -151,26 +139,12 @@ export default async function EventsPage({ searchParams }) {
 
           <FilterSection title={t.sort_label}>
             <div className={styles.sortGroup}>
-              <Link 
-                href={buildUrl({ sort: 'desc', page: 1 })} 
-                className={`${styles.sortLink} ${sort === 'desc' ? styles.activeSort : ''}`}
-                scroll={false}
-              >
-                {t.sort_newest}
-              </Link>
-              <Link 
-                href={buildUrl({ sort: 'asc', page: 1 })} 
-                className={`${styles.sortLink} ${sort === 'asc' ? styles.activeSort : ''}`}
-                scroll={false}
-              >
-                {t.sort_oldest}
-              </Link>
+              <Link href={buildUrl({ sort: 'desc', page: 1 })} className={`${styles.sortLink} ${sort === 'desc' ? styles.activeSort : ''}`} scroll={false}>{t.sort_newest}</Link>
+              <Link href={buildUrl({ sort: 'asc', page: 1 })} className={`${styles.sortLink} ${sort === 'asc' ? styles.activeSort : ''}`} scroll={false}>{t.sort_oldest}</Link>
             </div>
           </FilterSection>
 
-          <Link href={`/events?lang=${lang}`} className={styles.clearFilters} scroll={false}>
-            {t.clear}
-          </Link>
+          <Link href={`/events?lang=${lang}`} className={styles.clearFilters} scroll={false}>{t.clear}</Link>
         </aside>
 
         <section>
