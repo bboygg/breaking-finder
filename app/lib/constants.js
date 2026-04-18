@@ -6,4 +6,4 @@ export const FORMATS = [
   "Toprock", "B-Girls", "Kids", "Others"
 ];
 
-export const STATUSES = ["Standby", "Ongoing", "Done", "Cancelled"];
+export const STATUSES = ["Upcoming", "Ongoing", "Done", "Cancelled"];

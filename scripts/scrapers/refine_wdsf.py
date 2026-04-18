@@ -15,7 +15,7 @@ def generate_refinement_prompt(raw_events):
     
     REQUIRED SCHEMA:
     {{
-        "status": "Standby",
+        "status": "Upcoming",
         "startDate": "YYYY-MM-DD",
         "endDate": "YYYY-MM-DD",
         "isMultiDay": boolean,

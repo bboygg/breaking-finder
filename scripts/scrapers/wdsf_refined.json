@@ -1,7 +1,7 @@
 [
   {
     "id": "wdsf-8752",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-08-27",
     "endDate": "2026-08-27",
     "isMultiDay": false,
@@ -19,7 +19,7 @@
   },
   {
     "id": "wdsf-8676",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-10-02",
     "endDate": "2026-10-03",
     "isMultiDay": true,
@@ -37,7 +37,7 @@
   },
   {
     "id": "wdsf-8597",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-11-12",
     "endDate": "2026-11-13",
     "isMultiDay": true,
@@ -55,7 +55,7 @@
   },
   {
     "id": "wdsf-8805",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-12-04",
     "endDate": "2026-12-06",
     "isMultiDay": true,

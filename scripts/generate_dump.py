@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 # Mocking constants for the script
 CATEGORIES = ["Battle", "Workshop", "Jam", "Cypher", "Competition", "Others"];
 FORMATS = ["1vs1", "2vs2", "3vs3", "4vs4", "Team", "7 to smoke", "Footwork", "Powermove", "Toprock", "B-Girls", "Kids", "Others"];
-STATUSES = ["Standby", "Ongoing", "Done", "Cancelled"];
+STATUSES = ["Upcoming", "Ongoing", "Done", "Cancelled"];
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), '../data/events.json')
 

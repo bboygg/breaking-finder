@@ -238,7 +238,7 @@
   },
   {
     "id": "7",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-04-25",
     "endDate": "2025-04-25",
     "isMultiDay": false,
@@ -434,7 +434,7 @@
   },
   {
     "id": "12",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-02-05",
     "endDate": "2024-02-05",
     "isMultiDay": false,
@@ -827,7 +827,7 @@
   },
   {
     "id": "22",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-12-10",
     "endDate": "2024-12-10",
     "isMultiDay": false,
@@ -904,7 +904,7 @@
   },
   {
     "id": "24",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-03-10",
     "endDate": "2024-03-10",
     "isMultiDay": false,
@@ -1064,7 +1064,7 @@
   },
   {
     "id": "28",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-11-03",
     "endDate": "2025-11-03",
     "isMultiDay": false,
@@ -1377,7 +1377,7 @@
   },
   {
     "id": "36",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-07-17",
     "endDate": "2024-07-19",
     "isMultiDay": true,
@@ -1454,7 +1454,7 @@
   },
   {
     "id": "38",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-04-30",
     "endDate": "2025-05-02",
     "isMultiDay": true,
@@ -1805,7 +1805,7 @@
   },
   {
     "id": "47",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-05-07",
     "endDate": "2025-05-09",
     "isMultiDay": true,
@@ -2000,7 +2000,7 @@
   },
   {
     "id": "52",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-04-27",
     "endDate": "2024-04-27",
     "isMultiDay": false,
@@ -2192,7 +2192,7 @@
   },
   {
     "id": "57",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-12-18",
     "endDate": "2025-12-18",
     "isMultiDay": false,
@@ -2269,7 +2269,7 @@
   },
   {
     "id": "59",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-11-03",
     "endDate": "2024-11-03",
     "isMultiDay": false,
@@ -2383,7 +2383,7 @@
   },
   {
     "id": "62",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-06-05",
     "endDate": "2024-06-05",
     "isMultiDay": false,
@@ -2500,7 +2500,7 @@
   },
   {
     "id": "65",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-12-12",
     "endDate": "2025-12-14",
     "isMultiDay": true,
@@ -2538,7 +2538,7 @@
   },
   {
     "id": "66",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-04-13",
     "endDate": "2024-04-13",
     "isMultiDay": false,
@@ -2807,7 +2807,7 @@
   },
   {
     "id": "73",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-05-24",
     "endDate": "2025-05-26",
     "isMultiDay": true,
@@ -2922,7 +2922,7 @@
   },
   {
     "id": "76",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-05-16",
     "endDate": "2025-05-17",
     "isMultiDay": true,
@@ -3038,7 +3038,7 @@
   },
   {
     "id": "79",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-06-28",
     "endDate": "2025-06-28",
     "isMultiDay": false,
@@ -3077,7 +3077,7 @@
   },
   {
     "id": "80",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-08-13",
     "endDate": "2025-08-13",
     "isMultiDay": false,
@@ -3153,7 +3153,7 @@
   },
   {
     "id": "82",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-02-25",
     "endDate": "2025-02-25",
     "isMultiDay": false,
@@ -3425,7 +3425,7 @@
   },
   {
     "id": "89",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2024-03-25",
     "endDate": "2024-03-25",
     "isMultiDay": false,
@@ -3620,7 +3620,7 @@
   },
   {
     "id": "94",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-06-23",
     "endDate": "2025-06-23",
     "isMultiDay": false,
@@ -3737,7 +3737,7 @@
   },
   {
     "id": "97",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2025-02-17",
     "endDate": "2025-02-17",
     "isMultiDay": false,
@@ -3895,7 +3895,7 @@
   },
   {
     "id": "wdsf-8752",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-08-27",
     "endDate": "2026-08-27",
     "isMultiDay": false,
@@ -3933,7 +3933,7 @@
   },
   {
     "id": "wdsf-8676",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-10-02",
     "endDate": "2026-10-03",
     "isMultiDay": true,
@@ -3971,7 +3971,7 @@
   },
   {
     "id": "wdsf-8597",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-11-12",
     "endDate": "2026-11-13",
     "isMultiDay": true,
@@ -4009,7 +4009,7 @@
   },
   {
     "id": "wdsf-8805",
-    "status": "Standby",
+    "status": "Upcoming",
     "startDate": "2026-12-04",
     "endDate": "2026-12-06",
     "isMultiDay": true,
