@@ -37,9 +37,10 @@ def generate_refinement_prompt(raw_events):
 
     INSTRUCTIONS:
     1. CATEGORY: Set to "Competition" for WDSF events.
-    2. FORMATS: Extract formats from the "name" field if not specified. 
-       Example: "1 vs 1 B-Girl Adults" -> ["1vs1", "B-Girls"]
-       Look for patterns like "1vs1", "2vs2", "B-Girl", "B-Boy", "Youth", "Adult".
+    2. FORMATS: Extract competitive formats from the "name" field.
+       Example: "1 vs 1 B-Girl" -> ["1vs1", "B-Girls"]
+       Look for patterns like "1vs1", "2vs2", "B-Girl", "B-Boy".
+       IGNORE age categories like "Youth" or "Adult".
     3. VENUE: If not specified, set both ko/en to "NA".
     4. DATE: Parse date ranges like "4 - 6 December 2026" into startDate and endDate.
     5. TRANSLATION: Translate City/Country to Korean for "ko" fields.
