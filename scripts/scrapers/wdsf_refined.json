@@ -1,0 +1,74 @@
+[
+  {
+    "id": "wdsf-8752",
+    "status": "Upcoming",
+    "startDate": "2026-08-27",
+    "endDate": "2026-08-27",
+    "isMultiDay": false,
+    "event_time": { "start": "2026-08-27 13:00", "end": "2026-08-27 21:00" },
+    "registration": { "start": "", "end": "" },
+    "category": "Competition",
+    "formats": ["1vs1"],
+    "name": { "ko": "BfG 인터내셔널 시리즈: 유스 브레이킹", "en": "BfG International Series: Youth Breaking" },
+    "location": {
+      "venue": { "ko": "NA", "en": "NA" },
+      "city": { "ko": "포르투", "en": "Porto" },
+      "country": { "ko": "포르투갈", "en": "Portugal" }
+    },
+    "url": "https://www.worlddancesport.org/Events/Porto-Portugal-27082026-8752"
+  },
+  {
+    "id": "wdsf-8676",
+    "status": "Upcoming",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "isMultiDay": true,
+    "event_time": { "start": "2026-10-02 13:00", "end": "2026-10-03 21:00" },
+    "registration": { "start": "", "end": "" },
+    "category": "Competition",
+    "formats": ["1vs1"],
+    "name": { "ko": "대륙간 경기: 성인 브레이킹", "en": "Continental Games: Adult Breaking" },
+    "location": {
+      "venue": { "ko": "NA", "en": "NA" },
+      "city": { "ko": "나고야", "en": "Nagoya" },
+      "country": { "ko": "일본", "en": "Japan" }
+    },
+    "url": "https://www.worlddancesport.org/Events/Nagoya-Japan-02102026-03102026-8676"
+  },
+  {
+    "id": "wdsf-8597",
+    "status": "Upcoming",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
+    "isMultiDay": true,
+    "event_time": { "start": "2026-11-12 13:00", "end": "2026-11-13 21:00" },
+    "registration": { "start": "", "end": "" },
+    "category": "Competition",
+    "formats": ["1vs1"],
+    "name": { "ko": "유스 올림픽 경기: 유스 브레이킹", "en": "Youth Olympic Games: Youth Breaking" },
+    "location": {
+      "venue": { "ko": "NA", "en": "NA" },
+      "city": { "ko": "다카르", "en": "Dakar" },
+      "country": { "ko": "세네갈", "en": "Senegal" }
+    },
+    "url": "https://www.worlddancesport.org/Events/Dakar-Senegal-12112026-13112026-8597"
+  },
+  {
+    "id": "wdsf-8805",
+    "status": "Upcoming",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-06",
+    "isMultiDay": true,
+    "event_time": { "start": "2026-12-04 13:00", "end": "2026-12-06 21:00" },
+    "registration": { "start": "", "end": "" },
+    "category": "Competition",
+    "formats": ["1vs1"],
+    "name": { "ko": "세계 브레이킹 선수권 대회", "en": "World Championships: Adult Breaking" },
+    "location": {
+      "venue": { "ko": "NA", "en": "NA" },
+      "city": { "ko": "파리", "en": "Paris" },
+      "country": { "ko": "프랑스", "en": "France" }
+    },
+    "url": "https://www.worlddancesport.org/Events/Paris-France-04122026-06122026-8805"
+  }
+]

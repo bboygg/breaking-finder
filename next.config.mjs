@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    /* App Router handles i18n differently, removed legacy i18n config */
-    output: 'standalone', // Optimization for build traces
+    output: 'export', // Required for GitHub Pages
     images: {
-        unoptimized: true, // Sustainable SSG doesn't need image optimization server
+        unoptimized: true, 
     },
+    // If your repo name is 'breaking-finder', you might need this:
+    // basePath: '/breaking-finder',
 };
 
 export default nextConfig;

@@ -1,295 +1,22 @@
 [
   {
     "id": "1",
-    "status": "Standby",
-    "startDate": "2024-07-13",
-    "endDate": "2024-07-14",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-07-13 13:00",
-      "end": "2024-07-14 21:00"
-    },
-    "registration": {
-      "start": "2024-06-13",
-      "end": "2024-07-11"
-    },
-    "category": "Others",
-    "formats": [
-      "4vs4",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "2",
-    "status": "Standby",
-    "startDate": "2024-07-28",
-    "endDate": "2024-07-28",
+    "status": "Ongoing",
+    "startDate": "2025-05-10",
+    "endDate": "2025-05-10",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-07-28 13:00",
-      "end": "2024-07-28 21:00"
+      "start": "2025-05-10 13:00",
+      "end": "2025-05-10 21:00"
     },
     "registration": {
-      "start": "2024-06-28",
-      "end": "2024-07-26"
+      "start": "2025-04-10",
+      "end": "2025-05-08"
     },
     "category": "Jam",
     "formats": [
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "파리 Jam",
-      "en": "Paris Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "3",
-    "status": "Ongoing",
-    "startDate": "2024-09-26",
-    "endDate": "2024-09-27",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-09-26 13:00",
-      "end": "2024-09-27 21:00"
-    },
-    "registration": {
-      "start": "2024-08-27",
-      "end": "2024-09-24"
-    },
-    "category": "Others",
-    "formats": [
-      "3vs3",
       "Toprock",
-      "Kids"
-    ],
-    "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "4",
-    "status": "Ongoing",
-    "startDate": "2024-12-05",
-    "endDate": "2024-12-05",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-12-05 13:00",
-      "end": "2024-12-05 21:00"
-    },
-    "registration": {
-      "start": "2024-11-05",
-      "end": "2024-12-03"
-    },
-    "category": "Workshop",
-    "formats": [
-      "7 to smoke",
-      "B-Girls",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "파리 Workshop",
-      "en": "Paris Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "5",
-    "status": "Done",
-    "startDate": "2024-01-01",
-    "endDate": "2024-01-02",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-01-01 13:00",
-      "end": "2024-01-02 21:00"
-    },
-    "registration": {
-      "start": "2023-12-02",
-      "end": "2023-12-30"
-    },
-    "category": "Workshop",
-    "formats": [
-      "2vs2",
       "Others"
-    ],
-    "name": {
-      "ko": "도쿄 Workshop",
-      "en": "Tokyo Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "6",
-    "status": "Standby",
-    "startDate": "2025-02-28",
-    "endDate": "2025-03-01",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-02-28 13:00",
-      "end": "2025-03-01 21:00"
-    },
-    "registration": {
-      "start": "2025-01-29",
-      "end": "2025-02-26"
-    },
-    "category": "Workshop",
-    "formats": [
-      "Footwork",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "부산 Workshop",
-      "en": "Busan Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "7",
-    "status": "Ongoing",
-    "startDate": "2025-05-11",
-    "endDate": "2025-05-11",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-05-11 13:00",
-      "end": "2025-05-11 21:00"
-    },
-    "registration": {
-      "start": "2025-04-11",
-      "end": "2025-05-09"
-    },
-    "category": "Cypher",
-    "formats": [
-      "Team"
-    ],
-    "name": {
-      "ko": "뉴욕 Cypher",
-      "en": "New York Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "8",
-    "status": "Cancelled",
-    "startDate": "2024-07-05",
-    "endDate": "2024-07-05",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-07-05 13:00",
-      "end": "2024-07-05 21:00"
-    },
-    "registration": {
-      "start": "2024-06-05",
-      "end": "2024-07-03"
-    },
-    "category": "Jam",
-    "formats": [
-      "2vs2",
-      "7 to smoke"
     ],
     "name": {
       "ko": "도쿄 Jam",
@@ -312,146 +39,28 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "9",
-    "status": "Ongoing",
-    "startDate": "2025-08-19",
-    "endDate": "2025-08-21",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-08-19 13:00",
-      "end": "2025-08-21 21:00"
-    },
-    "registration": {
-      "start": "2025-07-20",
-      "end": "2025-08-17"
-    },
-    "category": "Others",
-    "formats": [
-      "3vs3",
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "10",
-    "status": "Ongoing",
-    "startDate": "2024-04-15",
-    "endDate": "2024-04-17",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-04-15 13:00",
-      "end": "2024-04-17 21:00"
-    },
-    "registration": {
-      "start": "2024-03-16",
-      "end": "2024-04-13"
-    },
-    "category": "Others",
-    "formats": [
-      "7 to smoke",
-      "B-Girls",
-      "2vs2"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "11",
-    "status": "Ongoing",
-    "startDate": "2025-03-10",
-    "endDate": "2025-03-10",
+    "id": "2",
+    "status": "Cancelled",
+    "startDate": "2024-04-24",
+    "endDate": "2024-04-24",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-03-10 13:00",
-      "end": "2025-03-10 21:00"
+      "start": "2024-04-24 13:00",
+      "end": "2024-04-24 21:00"
     },
     "registration": {
-      "start": "2025-02-08",
-      "end": "2025-03-08"
+      "start": "2024-03-25",
+      "end": "2024-04-22"
     },
-    "category": "Workshop",
-    "formats": [
-      "Powermove",
-      "Team"
-    ],
-    "name": {
-      "ko": "도쿄 Workshop",
-      "en": "Tokyo Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "12",
-    "status": "Done",
-    "startDate": "2024-03-23",
-    "endDate": "2024-03-24",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-03-23 13:00",
-      "end": "2024-03-24 21:00"
-    },
-    "registration": {
-      "start": "2024-02-22",
-      "end": "2024-03-21"
-    },
-    "category": "Cypher",
+    "category": "Battle",
     "formats": [
       "B-Girls",
-      "Toprock",
+      "Kids",
       "Footwork"
     ],
     "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
+      "ko": "파리 Battle",
+      "en": "Paris Battle"
     },
     "location": {
       "venue": {
@@ -459,108 +68,34 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "파리",
+        "en": "Paris"
       },
       "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
+        "ko": "프랑스",
+        "en": "France"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "13",
+    "id": "3",
     "status": "Ongoing",
-    "startDate": "2024-12-21",
-    "endDate": "2024-12-22",
+    "startDate": "2024-02-23",
+    "endDate": "2024-02-24",
     "isMultiDay": true,
     "event_time": {
-      "start": "2024-12-21 13:00",
-      "end": "2024-12-22 21:00"
+      "start": "2024-02-23 13:00",
+      "end": "2024-02-24 21:00"
     },
     "registration": {
-      "start": "2024-11-21",
-      "end": "2024-12-19"
-    },
-    "category": "Others",
-    "formats": [
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "14",
-    "status": "Standby",
-    "startDate": "2025-06-15",
-    "endDate": "2025-06-15",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-06-15 13:00",
-      "end": "2025-06-15 21:00"
-    },
-    "registration": {
-      "start": "2025-05-16",
-      "end": "2025-06-13"
-    },
-    "category": "Cypher",
-    "formats": [
-      "1vs1"
-    ],
-    "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "15",
-    "status": "Standby",
-    "startDate": "2024-08-11",
-    "endDate": "2024-08-11",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-08-11 13:00",
-      "end": "2024-08-11 21:00"
-    },
-    "registration": {
-      "start": "2024-07-12",
-      "end": "2024-08-09"
+      "start": "2024-01-24",
+      "end": "2024-02-21"
     },
     "category": "Workshop",
     "formats": [
+      "B-Girls",
+      "4vs4",
       "Powermove"
     ],
     "name": {
@@ -584,104 +119,28 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "16",
+    "id": "4",
     "status": "Cancelled",
-    "startDate": "2024-03-11",
-    "endDate": "2024-03-12",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-08",
     "isMultiDay": true,
     "event_time": {
-      "start": "2024-03-11 13:00",
-      "end": "2024-03-12 21:00"
+      "start": "2025-11-06 13:00",
+      "end": "2025-11-08 21:00"
     },
     "registration": {
-      "start": "2024-02-10",
-      "end": "2024-03-09"
+      "start": "2025-10-07",
+      "end": "2025-11-04"
     },
-    "category": "Jam",
+    "category": "Cypher",
     "formats": [
-      "Kids",
-      "1vs1"
+      "Toprock",
+      "2vs2",
+      "Others"
     ],
     "name": {
-      "ko": "파리 Jam",
-      "en": "Paris Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "17",
-    "status": "Cancelled",
-    "startDate": "2024-06-15",
-    "endDate": "2024-06-15",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-06-15 13:00",
-      "end": "2024-06-15 21:00"
-    },
-    "registration": {
-      "start": "2024-05-16",
-      "end": "2024-06-13"
-    },
-    "category": "Others",
-    "formats": [
-      "Others",
-      "4vs4"
-    ],
-    "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "18",
-    "status": "Done",
-    "startDate": "2025-11-05",
-    "endDate": "2025-11-05",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-11-05 13:00",
-      "end": "2025-11-05 21:00"
-    },
-    "registration": {
-      "start": "2025-10-06",
-      "end": "2025-11-03"
-    },
-    "category": "Battle",
-    "formats": [
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "뉴욕 Battle",
-      "en": "New York Battle"
+      "ko": "뉴욕 Cypher",
+      "en": "New York Cypher"
     },
     "location": {
       "venue": {
@@ -700,27 +159,27 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "19",
-    "status": "Standby",
-    "startDate": "2024-11-12",
-    "endDate": "2024-11-12",
+    "id": "5",
+    "status": "Done",
+    "startDate": "2024-04-08",
+    "endDate": "2024-04-08",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-11-12 13:00",
-      "end": "2024-11-12 21:00"
+      "start": "2024-04-08 13:00",
+      "end": "2024-04-08 21:00"
     },
     "registration": {
-      "start": "2024-10-13",
-      "end": "2024-11-10"
+      "start": "2024-03-09",
+      "end": "2024-04-06"
     },
-    "category": "Cypher",
+    "category": "Competition",
     "formats": [
-      "Others",
-      "B-Girls"
+      "7 to smoke",
+      "Toprock"
     ],
     "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
+      "ko": "부산 Competition",
+      "en": "Busan Competition"
     },
     "location": {
       "venue": {
@@ -739,27 +198,223 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "20",
-    "status": "Ongoing",
-    "startDate": "2025-09-04",
-    "endDate": "2025-09-04",
+    "id": "6",
+    "status": "Cancelled",
+    "startDate": "2024-01-28",
+    "endDate": "2024-01-28",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-09-04 13:00",
-      "end": "2025-09-04 21:00"
+      "start": "2024-01-28 13:00",
+      "end": "2024-01-28 21:00"
     },
     "registration": {
-      "start": "2025-08-05",
-      "end": "2025-09-02"
+      "start": "2023-12-29",
+      "end": "2024-01-26"
     },
-    "category": "Cypher",
+    "category": "Others",
     "formats": [
-      "Footwork",
+      "Kids",
       "Team"
     ],
     "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
+      "ko": "서울 Others",
+      "en": "Seoul Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "7",
+    "status": "Upcoming",
+    "startDate": "2025-04-25",
+    "endDate": "2025-04-25",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-04-25 13:00",
+      "end": "2025-04-25 21:00"
+    },
+    "registration": {
+      "start": "2025-03-26",
+      "end": "2025-04-23"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Kids",
+      "7 to smoke",
+      "Team"
+    ],
+    "name": {
+      "ko": "도쿄 Workshop",
+      "en": "Tokyo Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "8",
+    "status": "Done",
+    "startDate": "2025-09-13",
+    "endDate": "2025-09-13",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-09-13 13:00",
+      "end": "2025-09-13 21:00"
+    },
+    "registration": {
+      "start": "2025-08-14",
+      "end": "2025-09-11"
+    },
+    "category": "Competition",
+    "formats": [
+      "B-Girls"
+    ],
+    "name": {
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "9",
+    "status": "Done",
+    "startDate": "2025-11-22",
+    "endDate": "2025-11-22",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-11-22 13:00",
+      "end": "2025-11-22 21:00"
+    },
+    "registration": {
+      "start": "2025-10-23",
+      "end": "2025-11-20"
+    },
+    "category": "Competition",
+    "formats": [
+      "B-Girls",
+      "4vs4",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "10",
+    "status": "Cancelled",
+    "startDate": "2024-10-02",
+    "endDate": "2024-10-04",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-10-02 13:00",
+      "end": "2024-10-04 21:00"
+    },
+    "registration": {
+      "start": "2024-09-02",
+      "end": "2024-09-30"
+    },
+    "category": "Jam",
+    "formats": [
+      "3vs3"
+    ],
+    "name": {
+      "ko": "도쿄 Jam",
+      "en": "Tokyo Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "11",
+    "status": "Done",
+    "startDate": "2024-12-27",
+    "endDate": "2024-12-27",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-12-27 13:00",
+      "end": "2024-12-27 21:00"
+    },
+    "registration": {
+      "start": "2024-11-27",
+      "end": "2024-12-25"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Toprock",
+      "Others",
+      "4vs4"
+    ],
+    "name": {
+      "ko": "부산 Workshop",
+      "en": "Busan Workshop"
     },
     "location": {
       "venue": {
@@ -778,24 +433,62 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "21",
-    "status": "Done",
-    "startDate": "2024-12-04",
-    "endDate": "2024-12-04",
+    "id": "12",
+    "status": "Upcoming",
+    "startDate": "2024-02-05",
+    "endDate": "2024-02-05",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-12-04 13:00",
-      "end": "2024-12-04 21:00"
+      "start": "2024-02-05 13:00",
+      "end": "2024-02-05 21:00"
     },
     "registration": {
-      "start": "2024-11-04",
-      "end": "2024-12-02"
+      "start": "2024-01-06",
+      "end": "2024-02-03"
+    },
+    "category": "Jam",
+    "formats": [
+      "Kids"
+    ],
+    "name": {
+      "ko": "부산 Jam",
+      "en": "Busan Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "13",
+    "status": "Cancelled",
+    "startDate": "2025-10-02",
+    "endDate": "2025-10-03",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-10-02 13:00",
+      "end": "2025-10-03 21:00"
+    },
+    "registration": {
+      "start": "2025-09-02",
+      "end": "2025-09-30"
     },
     "category": "Cypher",
     "formats": [
-      "Footwork",
-      "Kids",
-      "Others"
+      "7 to smoke",
+      "Toprock",
+      "B-Girls"
     ],
     "name": {
       "ko": "도쿄 Cypher",
@@ -818,26 +511,28 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "22",
-    "status": "Cancelled",
-    "startDate": "2024-11-22",
-    "endDate": "2024-11-24",
-    "isMultiDay": true,
+    "id": "14",
+    "status": "Ongoing",
+    "startDate": "2025-09-19",
+    "endDate": "2025-09-19",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2024-11-22 13:00",
-      "end": "2024-11-24 21:00"
+      "start": "2025-09-19 13:00",
+      "end": "2025-09-19 21:00"
     },
     "registration": {
-      "start": "2024-10-23",
-      "end": "2024-11-20"
+      "start": "2025-08-20",
+      "end": "2025-09-17"
     },
-    "category": "Cypher",
+    "category": "Competition",
     "formats": [
-      "7 to smoke"
+      "3vs3",
+      "B-Girls",
+      "Footwork"
     ],
     "name": {
-      "ko": "뉴욕 Cypher",
-      "en": "New York Cypher"
+      "ko": "부산 Competition",
+      "en": "Busan Competition"
     },
     "location": {
       "venue": {
@@ -845,424 +540,34 @@
         "en": "NA"
       },
       "city": {
-        "ko": "뉴욕",
-        "en": "New York"
+        "ko": "부산",
+        "en": "Busan"
       },
       "country": {
-        "ko": "미국",
-        "en": "USA"
+        "ko": "대한민국",
+        "en": "South Korea"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "23",
-    "status": "Standby",
+    "id": "15",
+    "status": "Ongoing",
     "startDate": "2024-04-09",
-    "endDate": "2024-04-11",
+    "endDate": "2024-04-10",
     "isMultiDay": true,
     "event_time": {
       "start": "2024-04-09 13:00",
-      "end": "2024-04-11 21:00"
+      "end": "2024-04-10 21:00"
     },
     "registration": {
       "start": "2024-03-10",
       "end": "2024-04-07"
     },
-    "category": "Others",
-    "formats": [
-      "Powermove",
-      "Others"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "24",
-    "status": "Ongoing",
-    "startDate": "2024-06-15",
-    "endDate": "2024-06-15",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-06-15 13:00",
-      "end": "2024-06-15 21:00"
-    },
-    "registration": {
-      "start": "2024-05-16",
-      "end": "2024-06-13"
-    },
-    "category": "Jam",
-    "formats": [
-      "Footwork",
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "뉴욕 Jam",
-      "en": "New York Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "25",
-    "status": "Done",
-    "startDate": "2025-07-01",
-    "endDate": "2025-07-01",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-07-01 13:00",
-      "end": "2025-07-01 21:00"
-    },
-    "registration": {
-      "start": "2025-06-01",
-      "end": "2025-06-29"
-    },
-    "category": "Battle",
-    "formats": [
-      "7 to smoke",
-      "1vs1",
-      "Powermove"
-    ],
-    "name": {
-      "ko": "부산 Battle",
-      "en": "Busan Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "26",
-    "status": "Standby",
-    "startDate": "2024-04-14",
-    "endDate": "2024-04-15",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-04-14 13:00",
-      "end": "2024-04-15 21:00"
-    },
-    "registration": {
-      "start": "2024-03-15",
-      "end": "2024-04-12"
-    },
-    "category": "Others",
-    "formats": [
-      "B-Girls",
-      "7 to smoke",
-      "Footwork"
-    ],
-    "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "27",
-    "status": "Cancelled",
-    "startDate": "2024-09-23",
-    "endDate": "2024-09-23",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-09-23 13:00",
-      "end": "2024-09-23 21:00"
-    },
-    "registration": {
-      "start": "2024-08-24",
-      "end": "2024-09-21"
-    },
-    "category": "Cypher",
-    "formats": [
-      "Kids",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "파리 Cypher",
-      "en": "Paris Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "28",
-    "status": "Ongoing",
-    "startDate": "2024-04-13",
-    "endDate": "2024-04-13",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-04-13 13:00",
-      "end": "2024-04-13 21:00"
-    },
-    "registration": {
-      "start": "2024-03-14",
-      "end": "2024-04-11"
-    },
-    "category": "Jam",
-    "formats": [
-      "2vs2"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "29",
-    "status": "Done",
-    "startDate": "2025-01-12",
-    "endDate": "2025-01-12",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-01-12 13:00",
-      "end": "2025-01-12 21:00"
-    },
-    "registration": {
-      "start": "2024-12-13",
-      "end": "2025-01-10"
-    },
-    "category": "Battle",
-    "formats": [
-      "Others",
-      "2vs2"
-    ],
-    "name": {
-      "ko": "도쿄 Battle",
-      "en": "Tokyo Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "30",
-    "status": "Done",
-    "startDate": "2024-11-02",
-    "endDate": "2024-11-03",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-11-02 13:00",
-      "end": "2024-11-03 21:00"
-    },
-    "registration": {
-      "start": "2024-10-03",
-      "end": "2024-10-31"
-    },
-    "category": "Battle",
-    "formats": [
-      "7 to smoke",
-      "B-Girls",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "도쿄 Battle",
-      "en": "Tokyo Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "31",
-    "status": "Standby",
-    "startDate": "2025-09-28",
-    "endDate": "2025-09-29",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-09-28 13:00",
-      "end": "2025-09-29 21:00"
-    },
-    "registration": {
-      "start": "2025-08-29",
-      "end": "2025-09-26"
-    },
-    "category": "Others",
-    "formats": [
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "서울 Others",
-      "en": "Seoul Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "32",
-    "status": "Ongoing",
-    "startDate": "2025-04-26",
-    "endDate": "2025-04-26",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-04-26 13:00",
-      "end": "2025-04-26 21:00"
-    },
-    "registration": {
-      "start": "2025-03-27",
-      "end": "2025-04-24"
-    },
-    "category": "Others",
-    "formats": [
-      "3vs3"
-    ],
-    "name": {
-      "ko": "서울 Others",
-      "en": "Seoul Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "33",
-    "status": "Cancelled",
-    "startDate": "2025-01-02",
-    "endDate": "2025-01-02",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-01-02 13:00",
-      "end": "2025-01-02 21:00"
-    },
-    "registration": {
-      "start": "2024-12-03",
-      "end": "2024-12-31"
-    },
     "category": "Workshop",
     "formats": [
       "Powermove",
-      "Toprock"
+      "7 to smoke"
     ],
     "name": {
       "ko": "뉴욕 Workshop",
@@ -1285,253 +590,22 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "34",
-    "status": "Standby",
-    "startDate": "2024-06-23",
-    "endDate": "2024-06-23",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-06-23 13:00",
-      "end": "2024-06-23 21:00"
-    },
-    "registration": {
-      "start": "2024-05-24",
-      "end": "2024-06-21"
-    },
-    "category": "Others",
-    "formats": [
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "뉴욕 Others",
-      "en": "New York Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "35",
-    "status": "Standby",
-    "startDate": "2025-02-04",
-    "endDate": "2025-02-04",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-02-04 13:00",
-      "end": "2025-02-04 21:00"
-    },
-    "registration": {
-      "start": "2025-01-05",
-      "end": "2025-02-02"
-    },
-    "category": "Others",
-    "formats": [
-      "Footwork",
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "뉴욕 Others",
-      "en": "New York Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "36",
+    "id": "16",
     "status": "Ongoing",
-    "startDate": "2025-08-21",
-    "endDate": "2025-08-21",
+    "startDate": "2025-04-20",
+    "endDate": "2025-04-20",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-08-21 13:00",
-      "end": "2025-08-21 21:00"
+      "start": "2025-04-20 13:00",
+      "end": "2025-04-20 21:00"
     },
     "registration": {
-      "start": "2025-07-22",
-      "end": "2025-08-19"
-    },
-    "category": "Jam",
-    "formats": [
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "37",
-    "status": "Done",
-    "startDate": "2024-07-23",
-    "endDate": "2024-07-25",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-07-23 13:00",
-      "end": "2024-07-25 21:00"
-    },
-    "registration": {
-      "start": "2024-06-23",
-      "end": "2024-07-21"
-    },
-    "category": "Jam",
-    "formats": [
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "뉴욕 Jam",
-      "en": "New York Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "38",
-    "status": "Ongoing",
-    "startDate": "2024-01-14",
-    "endDate": "2024-01-14",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-01-14 13:00",
-      "end": "2024-01-14 21:00"
-    },
-    "registration": {
-      "start": "2023-12-15",
-      "end": "2024-01-12"
-    },
-    "category": "Cypher",
-    "formats": [
-      "2vs2",
-      "Toprock"
-    ],
-    "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "39",
-    "status": "Done",
-    "startDate": "2025-08-28",
-    "endDate": "2025-08-30",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-08-28 13:00",
-      "end": "2025-08-30 21:00"
-    },
-    "registration": {
-      "start": "2025-07-29",
-      "end": "2025-08-26"
-    },
-    "category": "Jam",
-    "formats": [
-      "3vs3"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "40",
-    "status": "Standby",
-    "startDate": "2024-05-21",
-    "endDate": "2024-05-21",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-05-21 13:00",
-      "end": "2024-05-21 21:00"
-    },
-    "registration": {
-      "start": "2024-04-21",
-      "end": "2024-05-19"
+      "start": "2025-03-21",
+      "end": "2025-04-18"
     },
     "category": "Workshop",
     "formats": [
-      "Footwork",
-      "Others"
+      "4vs4"
     ],
     "name": {
       "ko": "부산 Workshop",
@@ -1554,105 +628,28 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "41",
-    "status": "Done",
-    "startDate": "2025-06-09",
-    "endDate": "2025-06-09",
-    "isMultiDay": false,
+    "id": "17",
+    "status": "Ongoing",
+    "startDate": "2025-09-03",
+    "endDate": "2025-09-04",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2025-06-09 13:00",
-      "end": "2025-06-09 21:00"
+      "start": "2025-09-03 13:00",
+      "end": "2025-09-04 21:00"
     },
     "registration": {
-      "start": "2025-05-10",
-      "end": "2025-06-07"
+      "start": "2025-08-04",
+      "end": "2025-09-01"
     },
-    "category": "Workshop",
+    "category": "Competition",
     "formats": [
-      "B-Girls",
-      "4vs4",
-      "Toprock"
-    ],
-    "name": {
-      "ko": "도쿄 Workshop",
-      "en": "Tokyo Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "42",
-    "status": "Cancelled",
-    "startDate": "2024-12-18",
-    "endDate": "2024-12-18",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-12-18 13:00",
-      "end": "2024-12-18 21:00"
-    },
-    "registration": {
-      "start": "2024-11-18",
-      "end": "2024-12-16"
-    },
-    "category": "Cypher",
-    "formats": [
-      "2vs2"
-    ],
-    "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "43",
-    "status": "Standby",
-    "startDate": "2024-04-18",
-    "endDate": "2024-04-18",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-04-18 13:00",
-      "end": "2024-04-18 21:00"
-    },
-    "registration": {
-      "start": "2024-03-19",
-      "end": "2024-04-16"
-    },
-    "category": "Others",
-    "formats": [
-      "4vs4",
+      "3vs3",
+      "7 to smoke",
       "Powermove"
     ],
     "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
     },
     "location": {
       "venue": {
@@ -1660,8 +657,8 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "서울",
+        "en": "Seoul"
       },
       "country": {
         "ko": "대한민국",
@@ -1671,22 +668,180 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "44",
-    "status": "Done",
-    "startDate": "2024-09-25",
-    "endDate": "2024-09-25",
-    "isMultiDay": false,
+    "id": "18",
+    "status": "Ongoing",
+    "startDate": "2025-06-20",
+    "endDate": "2025-06-21",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2024-09-25 13:00",
-      "end": "2024-09-25 21:00"
+      "start": "2025-06-20 13:00",
+      "end": "2025-06-21 21:00"
     },
     "registration": {
-      "start": "2024-08-26",
-      "end": "2024-09-23"
+      "start": "2025-05-21",
+      "end": "2025-06-18"
+    },
+    "category": "Others",
+    "formats": [
+      "Team"
+    ],
+    "name": {
+      "ko": "서울 Others",
+      "en": "Seoul Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "19",
+    "status": "Done",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-02",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-08-01 13:00",
+      "end": "2024-08-02 21:00"
+    },
+    "registration": {
+      "start": "2024-07-02",
+      "end": "2024-07-30"
+    },
+    "category": "Jam",
+    "formats": [
+      "Toprock",
+      "2vs2",
+      "Others"
+    ],
+    "name": {
+      "ko": "파리 Jam",
+      "en": "Paris Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "20",
+    "status": "Cancelled",
+    "startDate": "2025-02-28",
+    "endDate": "2025-02-28",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-28 13:00",
+      "end": "2025-02-28 21:00"
+    },
+    "registration": {
+      "start": "2025-01-29",
+      "end": "2025-02-26"
+    },
+    "category": "Workshop",
+    "formats": [
+      "2vs2",
+      "Others",
+      "Powermove"
+    ],
+    "name": {
+      "ko": "뉴욕 Workshop",
+      "en": "New York Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "21",
+    "status": "Ongoing",
+    "startDate": "2024-09-18",
+    "endDate": "2024-09-20",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-09-18 13:00",
+      "end": "2024-09-20 21:00"
+    },
+    "registration": {
+      "start": "2024-08-19",
+      "end": "2024-09-16"
+    },
+    "category": "Jam",
+    "formats": [
+      "Footwork",
+      "Kids",
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "파리 Jam",
+      "en": "Paris Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "22",
+    "status": "Upcoming",
+    "startDate": "2024-12-10",
+    "endDate": "2024-12-10",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-12-10 13:00",
+      "end": "2024-12-10 21:00"
+    },
+    "registration": {
+      "start": "2024-11-10",
+      "end": "2024-12-08"
     },
     "category": "Cypher",
     "formats": [
-      "Kids",
+      "7 to smoke",
       "2vs2"
     ],
     "name": {
@@ -1710,568 +865,22 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "45",
-    "status": "Cancelled",
-    "startDate": "2025-03-25",
-    "endDate": "2025-03-25",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-03-25 13:00",
-      "end": "2025-03-25 21:00"
-    },
-    "registration": {
-      "start": "2025-02-23",
-      "end": "2025-03-23"
-    },
-    "category": "Battle",
-    "formats": [
-      "Powermove",
-      "Kids"
-    ],
-    "name": {
-      "ko": "뉴욕 Battle",
-      "en": "New York Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "46",
+    "id": "23",
     "status": "Ongoing",
-    "startDate": "2024-10-23",
-    "endDate": "2024-10-23",
+    "startDate": "2024-12-04",
+    "endDate": "2024-12-04",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-10-23 13:00",
-      "end": "2024-10-23 21:00"
+      "start": "2024-12-04 13:00",
+      "end": "2024-12-04 21:00"
     },
     "registration": {
-      "start": "2024-09-23",
-      "end": "2024-10-21"
-    },
-    "category": "Battle",
-    "formats": [
-      "B-Girls",
-      "3vs3"
-    ],
-    "name": {
-      "ko": "파리 Battle",
-      "en": "Paris Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "47",
-    "status": "Standby",
-    "startDate": "2025-03-29",
-    "endDate": "2025-03-31",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-03-29 13:00",
-      "end": "2025-03-31 21:00"
-    },
-    "registration": {
-      "start": "2025-02-27",
-      "end": "2025-03-27"
-    },
-    "category": "Cypher",
-    "formats": [
-      "4vs4",
-      "Toprock",
-      "2vs2"
-    ],
-    "name": {
-      "ko": "도쿄 Cypher",
-      "en": "Tokyo Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "48",
-    "status": "Done",
-    "startDate": "2025-03-13",
-    "endDate": "2025-03-13",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-03-13 13:00",
-      "end": "2025-03-13 21:00"
-    },
-    "registration": {
-      "start": "2025-02-11",
-      "end": "2025-03-11"
+      "start": "2024-11-04",
+      "end": "2024-12-02"
     },
     "category": "Workshop",
     "formats": [
-      "7 to smoke",
-      "1vs1",
-      "Powermove"
-    ],
-    "name": {
-      "ko": "부산 Workshop",
-      "en": "Busan Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "49",
-    "status": "Standby",
-    "startDate": "2025-05-31",
-    "endDate": "2025-05-31",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-05-31 13:00",
-      "end": "2025-05-31 21:00"
-    },
-    "registration": {
-      "start": "2025-05-01",
-      "end": "2025-05-29"
-    },
-    "category": "Jam",
-    "formats": [
-      "Toprock",
-      "Kids"
-    ],
-    "name": {
-      "ko": "부산 Jam",
-      "en": "Busan Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "50",
-    "status": "Done",
-    "startDate": "2025-01-27",
-    "endDate": "2025-01-27",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-01-27 13:00",
-      "end": "2025-01-27 21:00"
-    },
-    "registration": {
-      "start": "2024-12-28",
-      "end": "2025-01-25"
-    },
-    "category": "Jam",
-    "formats": [
-      "Others"
-    ],
-    "name": {
-      "ko": "부산 Jam",
-      "en": "Busan Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "51",
-    "status": "Standby",
-    "startDate": "2025-05-10",
-    "endDate": "2025-05-10",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-05-10 13:00",
-      "end": "2025-05-10 21:00"
-    },
-    "registration": {
-      "start": "2025-04-10",
-      "end": "2025-05-08"
-    },
-    "category": "Workshop",
-    "formats": [
-      "Footwork"
-    ],
-    "name": {
-      "ko": "뉴욕 Workshop",
-      "en": "New York Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "52",
-    "status": "Ongoing",
-    "startDate": "2025-03-19",
-    "endDate": "2025-03-19",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-03-19 13:00",
-      "end": "2025-03-19 21:00"
-    },
-    "registration": {
-      "start": "2025-02-17",
-      "end": "2025-03-17"
-    },
-    "category": "Others",
-    "formats": [
-      "1vs1"
-    ],
-    "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "53",
-    "status": "Done",
-    "startDate": "2025-01-07",
-    "endDate": "2025-01-09",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-01-07 13:00",
-      "end": "2025-01-09 21:00"
-    },
-    "registration": {
-      "start": "2024-12-08",
-      "end": "2025-01-05"
-    },
-    "category": "Cypher",
-    "formats": [
-      "Others",
-      "Toprock",
-      "Footwork"
-    ],
-    "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "54",
-    "status": "Standby",
-    "startDate": "2025-10-21",
-    "endDate": "2025-10-22",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-10-21 13:00",
-      "end": "2025-10-22 21:00"
-    },
-    "registration": {
-      "start": "2025-09-21",
-      "end": "2025-10-19"
-    },
-    "category": "Jam",
-    "formats": [
-      "B-Girls",
-      "2vs2"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "55",
-    "status": "Done",
-    "startDate": "2025-12-04",
-    "endDate": "2025-12-05",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-12-04 13:00",
-      "end": "2025-12-05 21:00"
-    },
-    "registration": {
-      "start": "2025-11-04",
-      "end": "2025-12-02"
-    },
-    "category": "Workshop",
-    "formats": [
-      "Powermove"
-    ],
-    "name": {
-      "ko": "서울 Workshop",
-      "en": "Seoul Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "56",
-    "status": "Cancelled",
-    "startDate": "2025-06-08",
-    "endDate": "2025-06-08",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-06-08 13:00",
-      "end": "2025-06-08 21:00"
-    },
-    "registration": {
-      "start": "2025-05-09",
-      "end": "2025-06-06"
-    },
-    "category": "Others",
-    "formats": [
-      "Team",
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "57",
-    "status": "Standby",
-    "startDate": "2024-05-28",
-    "endDate": "2024-05-28",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-05-28 13:00",
-      "end": "2024-05-28 21:00"
-    },
-    "registration": {
-      "start": "2024-04-28",
-      "end": "2024-05-26"
-    },
-    "category": "Others",
-    "formats": [
-      "4vs4"
-    ],
-    "name": {
-      "ko": "파리 Others",
-      "en": "Paris Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "58",
-    "status": "Standby",
-    "startDate": "2024-05-29",
-    "endDate": "2024-05-29",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-05-29 13:00",
-      "end": "2024-05-29 21:00"
-    },
-    "registration": {
-      "start": "2024-04-29",
-      "end": "2024-05-27"
-    },
-    "category": "Workshop",
-    "formats": [
-      "Kids",
-      "Powermove"
-    ],
-    "name": {
-      "ko": "뉴욕 Workshop",
-      "en": "New York Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "59",
-    "status": "Ongoing",
-    "startDate": "2025-12-14",
-    "endDate": "2025-12-14",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-12-14 13:00",
-      "end": "2025-12-14 21:00"
-    },
-    "registration": {
-      "start": "2025-11-14",
-      "end": "2025-12-12"
-    },
-    "category": "Workshop",
-    "formats": [
-      "1vs1",
-      "Team",
-      "B-Girls"
+      "7 to smoke"
     ],
     "name": {
       "ko": "파리 Workshop",
@@ -2294,143 +903,24 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "60",
-    "status": "Ongoing",
-    "startDate": "2025-02-24",
-    "endDate": "2025-02-25",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-02-24 13:00",
-      "end": "2025-02-25 21:00"
-    },
-    "registration": {
-      "start": "2025-01-25",
-      "end": "2025-02-22"
-    },
-    "category": "Workshop",
-    "formats": [
-      "2vs2",
-      "Kids",
-      "Toprock"
-    ],
-    "name": {
-      "ko": "뉴욕 Workshop",
-      "en": "New York Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "61",
-    "status": "Cancelled",
-    "startDate": "2025-01-12",
-    "endDate": "2025-01-12",
+    "id": "24",
+    "status": "Upcoming",
+    "startDate": "2024-03-10",
+    "endDate": "2024-03-10",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-01-12 13:00",
-      "end": "2025-01-12 21:00"
+      "start": "2024-03-10 13:00",
+      "end": "2024-03-10 21:00"
     },
     "registration": {
-      "start": "2024-12-13",
-      "end": "2025-01-10"
-    },
-    "category": "Others",
-    "formats": [
-      "3vs3",
-      "Others",
-      "Footwork"
-    ],
-    "name": {
-      "ko": "뉴욕 Others",
-      "en": "New York Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "62",
-    "status": "Standby",
-    "startDate": "2024-02-29",
-    "endDate": "2024-02-29",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-02-29 13:00",
-      "end": "2024-02-29 21:00"
-    },
-    "registration": {
-      "start": "2024-01-30",
-      "end": "2024-02-27"
-    },
-    "category": "Jam",
-    "formats": [
-      "1vs1",
-      "Kids"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "63",
-    "status": "Done",
-    "startDate": "2025-10-01",
-    "endDate": "2025-10-02",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2025-10-01 13:00",
-      "end": "2025-10-02 21:00"
-    },
-    "registration": {
-      "start": "2025-09-01",
-      "end": "2025-09-29"
+      "start": "2024-02-09",
+      "end": "2024-03-08"
     },
     "category": "Battle",
     "formats": [
-      "7 to smoke",
+      "Kids",
       "B-Girls",
-      "Toprock"
+      "Team"
     ],
     "name": {
       "ko": "도쿄 Battle",
@@ -2453,26 +943,68 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "64",
-    "status": "Standby",
-    "startDate": "2024-05-08",
-    "endDate": "2024-05-10",
-    "isMultiDay": true,
+    "id": "25",
+    "status": "Done",
+    "startDate": "2025-12-24",
+    "endDate": "2025-12-24",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2024-05-08 13:00",
-      "end": "2024-05-10 21:00"
+      "start": "2025-12-24 13:00",
+      "end": "2025-12-24 21:00"
     },
     "registration": {
-      "start": "2024-04-08",
-      "end": "2024-05-06"
+      "start": "2025-11-24",
+      "end": "2025-12-22"
     },
-    "category": "Battle",
+    "category": "Jam",
     "formats": [
-      "Others"
+      "Powermove",
+      "Kids",
+      "Team"
     ],
     "name": {
-      "ko": "뉴욕 Battle",
-      "en": "New York Battle"
+      "ko": "도쿄 Jam",
+      "en": "Tokyo Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "26",
+    "status": "Done",
+    "startDate": "2024-01-18",
+    "endDate": "2024-01-19",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-01-18 13:00",
+      "end": "2024-01-19 21:00"
+    },
+    "registration": {
+      "start": "2023-12-19",
+      "end": "2024-01-16"
+    },
+    "category": "Jam",
+    "formats": [
+      "2vs2",
+      "Toprock",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
     },
     "location": {
       "venue": {
@@ -2491,27 +1023,68 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "65",
-    "status": "Standby",
-    "startDate": "2024-09-29",
-    "endDate": "2024-09-29",
+    "id": "27",
+    "status": "Ongoing",
+    "startDate": "2025-06-15",
+    "endDate": "2025-06-15",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-09-29 13:00",
-      "end": "2024-09-29 21:00"
+      "start": "2025-06-15 13:00",
+      "end": "2025-06-15 21:00"
     },
     "registration": {
-      "start": "2024-08-30",
-      "end": "2024-09-27"
+      "start": "2025-05-16",
+      "end": "2025-06-13"
     },
-    "category": "Others",
+    "category": "Competition",
     "formats": [
-      "Toprock",
+      "1vs1",
+      "B-Girls",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "부산 Competition",
+      "en": "Busan Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "28",
+    "status": "Upcoming",
+    "startDate": "2025-11-03",
+    "endDate": "2025-11-03",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-11-03 13:00",
+      "end": "2025-11-03 21:00"
+    },
+    "registration": {
+      "start": "2025-10-04",
+      "end": "2025-11-01"
+    },
+    "category": "Jam",
+    "formats": [
+      "Kids",
+      "2vs2",
       "Team"
     ],
     "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
     },
     "location": {
       "venue": {
@@ -2519,38 +1092,76 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "뉴욕",
+        "en": "New York"
       },
       "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
+        "ko": "미국",
+        "en": "USA"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "66",
-    "status": "Ongoing",
-    "startDate": "2024-02-21",
-    "endDate": "2024-02-22",
+    "id": "29",
+    "status": "Done",
+    "startDate": "2024-01-03",
+    "endDate": "2024-01-04",
     "isMultiDay": true,
     "event_time": {
-      "start": "2024-02-21 13:00",
-      "end": "2024-02-22 21:00"
+      "start": "2024-01-03 13:00",
+      "end": "2024-01-04 21:00"
     },
     "registration": {
-      "start": "2024-01-22",
-      "end": "2024-02-19"
+      "start": "2023-12-04",
+      "end": "2024-01-01"
     },
-    "category": "Workshop",
+    "category": "Cypher",
     "formats": [
-      "1vs1",
+      "Powermove",
+      "2vs2"
+    ],
+    "name": {
+      "ko": "뉴욕 Cypher",
+      "en": "New York Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "30",
+    "status": "Cancelled",
+    "startDate": "2024-11-12",
+    "endDate": "2024-11-13",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-11-12 13:00",
+      "end": "2024-11-13 21:00"
+    },
+    "registration": {
+      "start": "2024-10-13",
+      "end": "2024-11-10"
+    },
+    "category": "Cypher",
+    "formats": [
       "4vs4"
     ],
     "name": {
-      "ko": "부산 Workshop",
-      "en": "Busan Workshop"
+      "ko": "서울 Cypher",
+      "en": "Seoul Cypher"
     },
     "location": {
       "venue": {
@@ -2558,8 +1169,8 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "서울",
+        "en": "Seoul"
       },
       "country": {
         "ko": "대한민국",
@@ -2569,24 +1180,141 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "67",
-    "status": "Standby",
-    "startDate": "2025-12-12",
-    "endDate": "2025-12-13",
-    "isMultiDay": true,
+    "id": "31",
+    "status": "Cancelled",
+    "startDate": "2025-05-06",
+    "endDate": "2025-05-06",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2025-12-12 13:00",
-      "end": "2025-12-13 21:00"
+      "start": "2025-05-06 13:00",
+      "end": "2025-05-06 21:00"
     },
     "registration": {
-      "start": "2025-11-12",
-      "end": "2025-12-10"
+      "start": "2025-04-06",
+      "end": "2025-05-04"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Kids"
+    ],
+    "name": {
+      "ko": "뉴욕 Workshop",
+      "en": "New York Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "32",
+    "status": "Ongoing",
+    "startDate": "2025-08-09",
+    "endDate": "2025-08-09",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-08-09 13:00",
+      "end": "2025-08-09 21:00"
+    },
+    "registration": {
+      "start": "2025-07-10",
+      "end": "2025-08-07"
+    },
+    "category": "Cypher",
+    "formats": [
+      "7 to smoke",
+      "Team",
+      "4vs4"
+    ],
+    "name": {
+      "ko": "서울 Cypher",
+      "en": "Seoul Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "33",
+    "status": "Cancelled",
+    "startDate": "2025-05-03",
+    "endDate": "2025-05-04",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-05-03 13:00",
+      "end": "2025-05-04 21:00"
+    },
+    "registration": {
+      "start": "2025-04-03",
+      "end": "2025-05-01"
+    },
+    "category": "Jam",
+    "formats": [
+      "Kids",
+      "2vs2",
+      "Others"
+    ],
+    "name": {
+      "ko": "도쿄 Jam",
+      "en": "Tokyo Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "34",
+    "status": "Cancelled",
+    "startDate": "2025-06-22",
+    "endDate": "2025-06-22",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-06-22 13:00",
+      "end": "2025-06-22 21:00"
+    },
+    "registration": {
+      "start": "2025-05-23",
+      "end": "2025-06-20"
     },
     "category": "Others",
     "formats": [
-      "Toprock",
-      "B-Girls",
-      "1vs1"
+      "1vs1",
+      "Powermove"
     ],
     "name": {
       "ko": "파리 Others",
@@ -2609,27 +1337,1302 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "68",
-    "status": "Standby",
-    "startDate": "2024-06-01",
-    "endDate": "2024-06-01",
-    "isMultiDay": false,
+    "id": "35",
+    "status": "Cancelled",
+    "startDate": "2025-01-28",
+    "endDate": "2025-01-29",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2024-06-01 13:00",
-      "end": "2024-06-01 21:00"
+      "start": "2025-01-28 13:00",
+      "end": "2025-01-29 21:00"
     },
     "registration": {
-      "start": "2024-05-02",
-      "end": "2024-05-30"
+      "start": "2024-12-29",
+      "end": "2025-01-26"
+    },
+    "category": "Cypher",
+    "formats": [
+      "2vs2",
+      "Powermove"
+    ],
+    "name": {
+      "ko": "서울 Cypher",
+      "en": "Seoul Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "36",
+    "status": "Upcoming",
+    "startDate": "2024-07-17",
+    "endDate": "2024-07-19",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-07-17 13:00",
+      "end": "2024-07-19 21:00"
+    },
+    "registration": {
+      "start": "2024-06-17",
+      "end": "2024-07-15"
+    },
+    "category": "Others",
+    "formats": [
+      "Powermove",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "도쿄 Others",
+      "en": "Tokyo Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "37",
+    "status": "Done",
+    "startDate": "2024-04-14",
+    "endDate": "2024-04-14",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-04-14 13:00",
+      "end": "2024-04-14 21:00"
+    },
+    "registration": {
+      "start": "2024-03-15",
+      "end": "2024-04-12"
+    },
+    "category": "Jam",
+    "formats": [
+      "3vs3"
+    ],
+    "name": {
+      "ko": "도쿄 Jam",
+      "en": "Tokyo Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "38",
+    "status": "Upcoming",
+    "startDate": "2025-04-30",
+    "endDate": "2025-05-02",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-04-30 13:00",
+      "end": "2025-05-02 21:00"
+    },
+    "registration": {
+      "start": "2025-03-31",
+      "end": "2025-04-28"
     },
     "category": "Battle",
     "formats": [
-      "Others",
+      "B-Girls",
       "4vs4"
     ],
     "name": {
-      "ko": "파리 Battle",
-      "en": "Paris Battle"
+      "ko": "뉴욕 Battle",
+      "en": "New York Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "39",
+    "status": "Ongoing",
+    "startDate": "2024-08-01",
+    "endDate": "2024-08-01",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-08-01 13:00",
+      "end": "2024-08-01 21:00"
+    },
+    "registration": {
+      "start": "2024-07-02",
+      "end": "2024-07-30"
+    },
+    "category": "Battle",
+    "formats": [
+      "7 to smoke",
+      "Others"
+    ],
+    "name": {
+      "ko": "부산 Battle",
+      "en": "Busan Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "40",
+    "status": "Cancelled",
+    "startDate": "2025-11-16",
+    "endDate": "2025-11-18",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-11-16 13:00",
+      "end": "2025-11-18 21:00"
+    },
+    "registration": {
+      "start": "2025-10-17",
+      "end": "2025-11-14"
+    },
+    "category": "Competition",
+    "formats": [
+      "Toprock"
+    ],
+    "name": {
+      "ko": "파리 Competition",
+      "en": "Paris Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "41",
+    "status": "Ongoing",
+    "startDate": "2025-02-07",
+    "endDate": "2025-02-07",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-07 13:00",
+      "end": "2025-02-07 21:00"
+    },
+    "registration": {
+      "start": "2025-01-08",
+      "end": "2025-02-05"
+    },
+    "category": "Jam",
+    "formats": [
+      "Kids",
+      "Others"
+    ],
+    "name": {
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "42",
+    "status": "Ongoing",
+    "startDate": "2024-05-28",
+    "endDate": "2024-05-28",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-05-28 13:00",
+      "end": "2024-05-28 21:00"
+    },
+    "registration": {
+      "start": "2024-04-28",
+      "end": "2024-05-26"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Kids",
+      "B-Girls"
+    ],
+    "name": {
+      "ko": "뉴욕 Workshop",
+      "en": "New York Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "43",
+    "status": "Ongoing",
+    "startDate": "2025-09-21",
+    "endDate": "2025-09-21",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-09-21 13:00",
+      "end": "2025-09-21 21:00"
+    },
+    "registration": {
+      "start": "2025-08-22",
+      "end": "2025-09-19"
+    },
+    "category": "Cypher",
+    "formats": [
+      "7 to smoke",
+      "2vs2",
+      "Team"
+    ],
+    "name": {
+      "ko": "서울 Cypher",
+      "en": "Seoul Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "44",
+    "status": "Ongoing",
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-02",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-11-01 13:00",
+      "end": "2025-11-02 21:00"
+    },
+    "registration": {
+      "start": "2025-10-02",
+      "end": "2025-10-30"
+    },
+    "category": "Jam",
+    "formats": [
+      "Others"
+    ],
+    "name": {
+      "ko": "부산 Jam",
+      "en": "Busan Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "45",
+    "status": "Cancelled",
+    "startDate": "2025-09-09",
+    "endDate": "2025-09-10",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-09-09 13:00",
+      "end": "2025-09-10 21:00"
+    },
+    "registration": {
+      "start": "2025-08-10",
+      "end": "2025-09-07"
+    },
+    "category": "Jam",
+    "formats": [
+      "1vs1",
+      "B-Girls"
+    ],
+    "name": {
+      "ko": "도쿄 Jam",
+      "en": "Tokyo Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "46",
+    "status": "Ongoing",
+    "startDate": "2025-06-14",
+    "endDate": "2025-06-14",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-06-14 13:00",
+      "end": "2025-06-14 21:00"
+    },
+    "registration": {
+      "start": "2025-05-15",
+      "end": "2025-06-12"
+    },
+    "category": "Battle",
+    "formats": [
+      "7 to smoke",
+      "B-Girls",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "뉴욕 Battle",
+      "en": "New York Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "47",
+    "status": "Upcoming",
+    "startDate": "2025-05-07",
+    "endDate": "2025-05-09",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-05-07 13:00",
+      "end": "2025-05-09 21:00"
+    },
+    "registration": {
+      "start": "2025-04-07",
+      "end": "2025-05-05"
+    },
+    "category": "Battle",
+    "formats": [
+      "Toprock",
+      "Team",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "뉴욕 Battle",
+      "en": "New York Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "48",
+    "status": "Done",
+    "startDate": "2024-02-22",
+    "endDate": "2024-02-23",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-02-22 13:00",
+      "end": "2024-02-23 21:00"
+    },
+    "registration": {
+      "start": "2024-01-23",
+      "end": "2024-02-20"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Kids",
+      "3vs3",
+      "1vs1"
+    ],
+    "name": {
+      "ko": "파리 Workshop",
+      "en": "Paris Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "49",
+    "status": "Done",
+    "startDate": "2025-01-11",
+    "endDate": "2025-01-11",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-01-11 13:00",
+      "end": "2025-01-11 21:00"
+    },
+    "registration": {
+      "start": "2024-12-12",
+      "end": "2025-01-09"
+    },
+    "category": "Workshop",
+    "formats": [
+      "1vs1"
+    ],
+    "name": {
+      "ko": "파리 Workshop",
+      "en": "Paris Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "50",
+    "status": "Cancelled",
+    "startDate": "2024-07-30",
+    "endDate": "2024-07-30",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-07-30 13:00",
+      "end": "2024-07-30 21:00"
+    },
+    "registration": {
+      "start": "2024-06-30",
+      "end": "2024-07-28"
+    },
+    "category": "Workshop",
+    "formats": [
+      "3vs3"
+    ],
+    "name": {
+      "ko": "도쿄 Workshop",
+      "en": "Tokyo Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "51",
+    "status": "Ongoing",
+    "startDate": "2025-02-07",
+    "endDate": "2025-02-07",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-07 13:00",
+      "end": "2025-02-07 21:00"
+    },
+    "registration": {
+      "start": "2025-01-08",
+      "end": "2025-02-05"
+    },
+    "category": "Others",
+    "formats": [
+      "Toprock",
+      "2vs2"
+    ],
+    "name": {
+      "ko": "도쿄 Others",
+      "en": "Tokyo Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "52",
+    "status": "Upcoming",
+    "startDate": "2024-04-27",
+    "endDate": "2024-04-27",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-04-27 13:00",
+      "end": "2024-04-27 21:00"
+    },
+    "registration": {
+      "start": "2024-03-28",
+      "end": "2024-04-25"
+    },
+    "category": "Jam",
+    "formats": [
+      "Toprock",
+      "4vs4",
+      "Powermove"
+    ],
+    "name": {
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "53",
+    "status": "Done",
+    "startDate": "2025-08-29",
+    "endDate": "2025-08-29",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-08-29 13:00",
+      "end": "2025-08-29 21:00"
+    },
+    "registration": {
+      "start": "2025-07-30",
+      "end": "2025-08-27"
+    },
+    "category": "Cypher",
+    "formats": [
+      "Kids"
+    ],
+    "name": {
+      "ko": "뉴욕 Cypher",
+      "en": "New York Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "54",
+    "status": "Cancelled",
+    "startDate": "2024-09-17",
+    "endDate": "2024-09-18",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-09-17 13:00",
+      "end": "2024-09-18 21:00"
+    },
+    "registration": {
+      "start": "2024-08-18",
+      "end": "2024-09-15"
+    },
+    "category": "Battle",
+    "formats": [
+      "Toprock"
+    ],
+    "name": {
+      "ko": "부산 Battle",
+      "en": "Busan Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "55",
+    "status": "Cancelled",
+    "startDate": "2025-07-15",
+    "endDate": "2025-07-15",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-07-15 13:00",
+      "end": "2025-07-15 21:00"
+    },
+    "registration": {
+      "start": "2025-06-15",
+      "end": "2025-07-13"
+    },
+    "category": "Others",
+    "formats": [
+      "Kids"
+    ],
+    "name": {
+      "ko": "도쿄 Others",
+      "en": "Tokyo Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "56",
+    "status": "Ongoing",
+    "startDate": "2024-12-03",
+    "endDate": "2024-12-04",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-12-03 13:00",
+      "end": "2024-12-04 21:00"
+    },
+    "registration": {
+      "start": "2024-11-03",
+      "end": "2024-12-01"
+    },
+    "category": "Jam",
+    "formats": [
+      "Team"
+    ],
+    "name": {
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "57",
+    "status": "Upcoming",
+    "startDate": "2025-12-18",
+    "endDate": "2025-12-18",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-12-18 13:00",
+      "end": "2025-12-18 21:00"
+    },
+    "registration": {
+      "start": "2025-11-18",
+      "end": "2025-12-16"
+    },
+    "category": "Competition",
+    "formats": [
+      "Kids",
+      "Others"
+    ],
+    "name": {
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "58",
+    "status": "Ongoing",
+    "startDate": "2024-12-07",
+    "endDate": "2024-12-07",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-12-07 13:00",
+      "end": "2024-12-07 21:00"
+    },
+    "registration": {
+      "start": "2024-11-07",
+      "end": "2024-12-05"
+    },
+    "category": "Cypher",
+    "formats": [
+      "Team"
+    ],
+    "name": {
+      "ko": "도쿄 Cypher",
+      "en": "Tokyo Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "59",
+    "status": "Upcoming",
+    "startDate": "2024-11-03",
+    "endDate": "2024-11-03",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-11-03 13:00",
+      "end": "2024-11-03 21:00"
+    },
+    "registration": {
+      "start": "2024-10-04",
+      "end": "2024-11-01"
+    },
+    "category": "Others",
+    "formats": [
+      "Others"
+    ],
+    "name": {
+      "ko": "도쿄 Others",
+      "en": "Tokyo Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "60",
+    "status": "Done",
+    "startDate": "2024-05-10",
+    "endDate": "2024-05-11",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-05-10 13:00",
+      "end": "2024-05-11 21:00"
+    },
+    "registration": {
+      "start": "2024-04-10",
+      "end": "2024-05-08"
+    },
+    "category": "Others",
+    "formats": [
+      "2vs2"
+    ],
+    "name": {
+      "ko": "파리 Others",
+      "en": "Paris Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "61",
+    "status": "Ongoing",
+    "startDate": "2025-04-05",
+    "endDate": "2025-04-05",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-04-05 13:00",
+      "end": "2025-04-05 21:00"
+    },
+    "registration": {
+      "start": "2025-03-06",
+      "end": "2025-04-03"
+    },
+    "category": "Cypher",
+    "formats": [
+      "Powermove"
+    ],
+    "name": {
+      "ko": "도쿄 Cypher",
+      "en": "Tokyo Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "62",
+    "status": "Upcoming",
+    "startDate": "2024-06-05",
+    "endDate": "2024-06-05",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-06-05 13:00",
+      "end": "2024-06-05 21:00"
+    },
+    "registration": {
+      "start": "2024-05-06",
+      "end": "2024-06-03"
+    },
+    "category": "Competition",
+    "formats": [
+      "Toprock",
+      "2vs2"
+    ],
+    "name": {
+      "ko": "부산 Competition",
+      "en": "Busan Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "63",
+    "status": "Done",
+    "startDate": "2025-10-11",
+    "endDate": "2025-10-11",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-10-11 13:00",
+      "end": "2025-10-11 21:00"
+    },
+    "registration": {
+      "start": "2025-09-11",
+      "end": "2025-10-09"
+    },
+    "category": "Competition",
+    "formats": [
+      "Footwork",
+      "Toprock",
+      "3vs3"
+    ],
+    "name": {
+      "ko": "뉴욕 Competition",
+      "en": "New York Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "64",
+    "status": "Done",
+    "startDate": "2024-09-11",
+    "endDate": "2024-09-13",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-09-11 13:00",
+      "end": "2024-09-13 21:00"
+    },
+    "registration": {
+      "start": "2024-08-12",
+      "end": "2024-09-09"
+    },
+    "category": "Competition",
+    "formats": [
+      "Toprock"
+    ],
+    "name": {
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "65",
+    "status": "Upcoming",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-14",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-12-12 13:00",
+      "end": "2025-12-14 21:00"
+    },
+    "registration": {
+      "start": "2025-11-12",
+      "end": "2025-12-10"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Others"
+    ],
+    "name": {
+      "ko": "서울 Workshop",
+      "en": "Seoul Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "66",
+    "status": "Upcoming",
+    "startDate": "2024-04-13",
+    "endDate": "2024-04-13",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-04-13 13:00",
+      "end": "2024-04-13 21:00"
+    },
+    "registration": {
+      "start": "2024-03-14",
+      "end": "2024-04-11"
+    },
+    "category": "Jam",
+    "formats": [
+      "1vs1"
+    ],
+    "name": {
+      "ko": "파리 Jam",
+      "en": "Paris Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "67",
+    "status": "Done",
+    "startDate": "2025-10-30",
+    "endDate": "2025-10-31",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-10-30 13:00",
+      "end": "2025-10-31 21:00"
+    },
+    "registration": {
+      "start": "2025-09-30",
+      "end": "2025-10-28"
+    },
+    "category": "Others",
+    "formats": [
+      "3vs3"
+    ],
+    "name": {
+      "ko": "뉴욕 Others",
+      "en": "New York Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "68",
+    "status": "Ongoing",
+    "startDate": "2024-12-08",
+    "endDate": "2024-12-08",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-12-08 13:00",
+      "end": "2024-12-08 21:00"
+    },
+    "registration": {
+      "start": "2024-11-08",
+      "end": "2024-12-06"
+    },
+    "category": "Jam",
+    "formats": [
+      "B-Girls"
+    ],
+    "name": {
+      "ko": "파리 Jam",
+      "en": "Paris Jam"
     },
     "location": {
       "venue": {
@@ -2649,17 +2652,210 @@
   },
   {
     "id": "69",
-    "status": "Cancelled",
-    "startDate": "2024-09-30",
-    "endDate": "2024-09-30",
-    "isMultiDay": false,
+    "status": "Done",
+    "startDate": "2024-01-21",
+    "endDate": "2024-01-23",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2024-09-30 13:00",
-      "end": "2024-09-30 21:00"
+      "start": "2024-01-21 13:00",
+      "end": "2024-01-23 21:00"
     },
     "registration": {
-      "start": "2024-08-31",
-      "end": "2024-09-28"
+      "start": "2023-12-22",
+      "end": "2024-01-19"
+    },
+    "category": "Jam",
+    "formats": [
+      "Footwork",
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "부산 Jam",
+      "en": "Busan Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "70",
+    "status": "Done",
+    "startDate": "2024-03-10",
+    "endDate": "2024-03-10",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-03-10 13:00",
+      "end": "2024-03-10 21:00"
+    },
+    "registration": {
+      "start": "2024-02-09",
+      "end": "2024-03-08"
+    },
+    "category": "Others",
+    "formats": [
+      "1vs1",
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "도쿄 Others",
+      "en": "Tokyo Others"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "71",
+    "status": "Ongoing",
+    "startDate": "2024-12-28",
+    "endDate": "2024-12-28",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-12-28 13:00",
+      "end": "2024-12-28 21:00"
+    },
+    "registration": {
+      "start": "2024-11-28",
+      "end": "2024-12-26"
+    },
+    "category": "Competition",
+    "formats": [
+      "1vs1",
+      "Footwork"
+    ],
+    "name": {
+      "ko": "서울 Competition",
+      "en": "Seoul Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "72",
+    "status": "Cancelled",
+    "startDate": "2024-02-19",
+    "endDate": "2024-02-19",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-02-19 13:00",
+      "end": "2024-02-19 21:00"
+    },
+    "registration": {
+      "start": "2024-01-20",
+      "end": "2024-02-17"
+    },
+    "category": "Battle",
+    "formats": [
+      "Team"
+    ],
+    "name": {
+      "ko": "도쿄 Battle",
+      "en": "Tokyo Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "73",
+    "status": "Upcoming",
+    "startDate": "2025-05-24",
+    "endDate": "2025-05-26",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-05-24 13:00",
+      "end": "2025-05-26 21:00"
+    },
+    "registration": {
+      "start": "2025-04-24",
+      "end": "2025-05-22"
+    },
+    "category": "Battle",
+    "formats": [
+      "Powermove"
+    ],
+    "name": {
+      "ko": "부산 Battle",
+      "en": "Busan Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "74",
+    "status": "Cancelled",
+    "startDate": "2024-08-06",
+    "endDate": "2024-08-07",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-08-06 13:00",
+      "end": "2024-08-07 21:00"
+    },
+    "registration": {
+      "start": "2024-07-07",
+      "end": "2024-08-04"
     },
     "category": "Jam",
     "formats": [
@@ -2687,219 +2883,26 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "70",
-    "status": "Done",
-    "startDate": "2025-11-03",
-    "endDate": "2025-11-03",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-11-03 13:00",
-      "end": "2025-11-03 21:00"
-    },
-    "registration": {
-      "start": "2025-10-04",
-      "end": "2025-11-01"
-    },
-    "category": "Others",
-    "formats": [
-      "3vs3"
-    ],
-    "name": {
-      "ko": "뉴욕 Others",
-      "en": "New York Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "71",
-    "status": "Ongoing",
-    "startDate": "2024-09-14",
-    "endDate": "2024-09-14",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-09-14 13:00",
-      "end": "2024-09-14 21:00"
-    },
-    "registration": {
-      "start": "2024-08-15",
-      "end": "2024-09-12"
-    },
-    "category": "Others",
-    "formats": [
-      "Others",
-      "Kids"
-    ],
-    "name": {
-      "ko": "파리 Others",
-      "en": "Paris Others"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "72",
-    "status": "Done",
-    "startDate": "2024-02-16",
-    "endDate": "2024-02-16",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-02-16 13:00",
-      "end": "2024-02-16 21:00"
-    },
-    "registration": {
-      "start": "2024-01-17",
-      "end": "2024-02-14"
-    },
-    "category": "Jam",
-    "formats": [
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "부산 Jam",
-      "en": "Busan Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "73",
-    "status": "Cancelled",
-    "startDate": "2025-04-04",
-    "endDate": "2025-04-04",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-04-04 13:00",
-      "end": "2025-04-04 21:00"
-    },
-    "registration": {
-      "start": "2025-03-05",
-      "end": "2025-04-02"
-    },
-    "category": "Jam",
-    "formats": [
-      "3vs3"
-    ],
-    "name": {
-      "ko": "뉴욕 Jam",
-      "en": "New York Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "74",
-    "status": "Ongoing",
-    "startDate": "2024-09-10",
-    "endDate": "2024-09-10",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-09-10 13:00",
-      "end": "2024-09-10 21:00"
-    },
-    "registration": {
-      "start": "2024-08-11",
-      "end": "2024-09-08"
-    },
-    "category": "Jam",
-    "formats": [
-      "2vs2",
-      "Others",
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "뉴욕 Jam",
-      "en": "New York Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
     "id": "75",
-    "status": "Standby",
-    "startDate": "2025-08-18",
-    "endDate": "2025-08-18",
-    "isMultiDay": false,
+    "status": "Done",
+    "startDate": "2024-04-24",
+    "endDate": "2024-04-26",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2025-08-18 13:00",
-      "end": "2025-08-18 21:00"
+      "start": "2024-04-24 13:00",
+      "end": "2024-04-26 21:00"
     },
     "registration": {
-      "start": "2025-07-19",
-      "end": "2025-08-16"
+      "start": "2024-03-25",
+      "end": "2024-04-22"
     },
-    "category": "Cypher",
+    "category": "Workshop",
     "formats": [
-      "7 to smoke"
+      "Powermove"
     ],
     "name": {
-      "ko": "부산 Cypher",
-      "en": "Busan Cypher"
+      "ko": "도쿄 Workshop",
+      "en": "Tokyo Workshop"
     },
     "location": {
       "venue": {
@@ -2907,74 +2910,33 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "도쿄",
+        "en": "Tokyo"
       },
       "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
+        "ko": "일본",
+        "en": "Japan"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
     "id": "76",
-    "status": "Standby",
-    "startDate": "2025-09-20",
-    "endDate": "2025-09-21",
+    "status": "Upcoming",
+    "startDate": "2025-05-16",
+    "endDate": "2025-05-17",
     "isMultiDay": true,
     "event_time": {
-      "start": "2025-09-20 13:00",
-      "end": "2025-09-21 21:00"
+      "start": "2025-05-16 13:00",
+      "end": "2025-05-17 21:00"
     },
     "registration": {
-      "start": "2025-08-21",
-      "end": "2025-09-18"
-    },
-    "category": "Jam",
-    "formats": [
-      "Footwork",
-      "Kids"
-    ],
-    "name": {
-      "ko": "서울 Jam",
-      "en": "Seoul Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "77",
-    "status": "Done",
-    "startDate": "2024-03-02",
-    "endDate": "2024-03-02",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-03-02 13:00",
-      "end": "2024-03-02 21:00"
-    },
-    "registration": {
-      "start": "2024-02-01",
-      "end": "2024-02-29"
+      "start": "2025-04-16",
+      "end": "2025-05-14"
     },
     "category": "Workshop",
     "formats": [
-      "Toprock",
-      "Kids",
-      "Others"
+      "1vs1"
     ],
     "name": {
       "ko": "서울 Workshop",
@@ -2997,22 +2959,62 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "78",
+    "id": "77",
     "status": "Cancelled",
-    "startDate": "2025-06-12",
-    "endDate": "2025-06-14",
+    "startDate": "2024-11-25",
+    "endDate": "2024-11-27",
     "isMultiDay": true,
     "event_time": {
-      "start": "2025-06-12 13:00",
-      "end": "2025-06-14 21:00"
+      "start": "2024-11-25 13:00",
+      "end": "2024-11-27 21:00"
     },
     "registration": {
-      "start": "2025-05-13",
-      "end": "2025-06-10"
+      "start": "2024-10-26",
+      "end": "2024-11-23"
+    },
+    "category": "Battle",
+    "formats": [
+      "2vs2",
+      "4vs4"
+    ],
+    "name": {
+      "ko": "서울 Battle",
+      "en": "Seoul Battle"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "78",
+    "status": "Ongoing",
+    "startDate": "2025-02-26",
+    "endDate": "2025-02-26",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-26 13:00",
+      "end": "2025-02-26 21:00"
+    },
+    "registration": {
+      "start": "2025-01-27",
+      "end": "2025-02-24"
     },
     "category": "Cypher",
     "formats": [
-      "Team"
+      "Team",
+      "1vs1"
     ],
     "name": {
       "ko": "파리 Cypher",
@@ -3036,100 +3038,22 @@
   },
   {
     "id": "79",
-    "status": "Ongoing",
-    "startDate": "2025-04-18",
-    "endDate": "2025-04-18",
+    "status": "Upcoming",
+    "startDate": "2025-06-28",
+    "endDate": "2025-06-28",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-04-18 13:00",
-      "end": "2025-04-18 21:00"
+      "start": "2025-06-28 13:00",
+      "end": "2025-06-28 21:00"
     },
     "registration": {
-      "start": "2025-03-19",
-      "end": "2025-04-16"
-    },
-    "category": "Jam",
-    "formats": [
-      "Powermove"
-    ],
-    "name": {
-      "ko": "파리 Jam",
-      "en": "Paris Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "80",
-    "status": "Done",
-    "startDate": "2025-08-12",
-    "endDate": "2025-08-12",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-08-12 13:00",
-      "end": "2025-08-12 21:00"
-    },
-    "registration": {
-      "start": "2025-07-13",
-      "end": "2025-08-10"
-    },
-    "category": "Battle",
-    "formats": [
-      "4vs4",
-      "Team",
-      "Kids"
-    ],
-    "name": {
-      "ko": "파리 Battle",
-      "en": "Paris Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "파리",
-        "en": "Paris"
-      },
-      "country": {
-        "ko": "프랑스",
-        "en": "France"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "81",
-    "status": "Done",
-    "startDate": "2024-05-13",
-    "endDate": "2024-05-15",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-05-13 13:00",
-      "end": "2024-05-15 21:00"
-    },
-    "registration": {
-      "start": "2024-04-13",
-      "end": "2024-05-11"
+      "start": "2025-05-29",
+      "end": "2025-06-26"
     },
     "category": "Cypher",
     "formats": [
-      "1vs1",
-      "Others"
+      "7 to smoke",
+      "Footwork"
     ],
     "name": {
       "ko": "부산 Cypher",
@@ -3152,27 +3076,26 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "82",
-    "status": "Done",
-    "startDate": "2025-11-22",
-    "endDate": "2025-11-22",
+    "id": "80",
+    "status": "Upcoming",
+    "startDate": "2025-08-13",
+    "endDate": "2025-08-13",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-11-22 13:00",
-      "end": "2025-11-22 21:00"
+      "start": "2025-08-13 13:00",
+      "end": "2025-08-13 21:00"
     },
     "registration": {
-      "start": "2025-10-23",
-      "end": "2025-11-20"
+      "start": "2025-07-14",
+      "end": "2025-08-11"
     },
-    "category": "Jam",
+    "category": "Workshop",
     "formats": [
-      "B-Girls",
       "7 to smoke"
     ],
     "name": {
-      "ko": "부산 Jam",
-      "en": "Busan Jam"
+      "ko": "서울 Workshop",
+      "en": "Seoul Workshop"
     },
     "location": {
       "venue": {
@@ -3180,8 +3103,85 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "서울",
+        "en": "Seoul"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "81",
+    "status": "Done",
+    "startDate": "2024-08-31",
+    "endDate": "2024-09-01",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-08-31 13:00",
+      "end": "2024-09-01 21:00"
+    },
+    "registration": {
+      "start": "2024-08-01",
+      "end": "2024-08-29"
+    },
+    "category": "Jam",
+    "formats": [
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "파리 Jam",
+      "en": "Paris Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "82",
+    "status": "Upcoming",
+    "startDate": "2025-02-25",
+    "endDate": "2025-02-25",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-25 13:00",
+      "end": "2025-02-25 21:00"
+    },
+    "registration": {
+      "start": "2025-01-26",
+      "end": "2025-02-23"
+    },
+    "category": "Jam",
+    "formats": [
+      "7 to smoke",
+      "1vs1"
+    ],
+    "name": {
+      "ko": "서울 Jam",
+      "en": "Seoul Jam"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "서울",
+        "en": "Seoul"
       },
       "country": {
         "ko": "대한민국",
@@ -3192,27 +3192,25 @@
   },
   {
     "id": "83",
-    "status": "Done",
-    "startDate": "2025-01-13",
-    "endDate": "2025-01-14",
+    "status": "Cancelled",
+    "startDate": "2024-04-26",
+    "endDate": "2024-04-27",
     "isMultiDay": true,
     "event_time": {
-      "start": "2025-01-13 13:00",
-      "end": "2025-01-14 21:00"
+      "start": "2024-04-26 13:00",
+      "end": "2024-04-27 21:00"
     },
     "registration": {
-      "start": "2024-12-14",
-      "end": "2025-01-11"
+      "start": "2024-03-27",
+      "end": "2024-04-24"
     },
     "category": "Workshop",
     "formats": [
-      "Footwork",
-      "Team",
-      "1vs1"
+      "Toprock"
     ],
     "name": {
-      "ko": "부산 Workshop",
-      "en": "Busan Workshop"
+      "ko": "파리 Workshop",
+      "en": "Paris Workshop"
     },
     "location": {
       "venue": {
@@ -3220,33 +3218,149 @@
         "en": "NA"
       },
       "city": {
-        "ko": "부산",
-        "en": "Busan"
+        "ko": "파리",
+        "en": "Paris"
       },
       "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
+        "ko": "프랑스",
+        "en": "France"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
     "id": "84",
-    "status": "Ongoing",
-    "startDate": "2024-08-24",
-    "endDate": "2024-08-24",
+    "status": "Cancelled",
+    "startDate": "2025-06-02",
+    "endDate": "2025-06-02",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-08-24 13:00",
-      "end": "2024-08-24 21:00"
+      "start": "2025-06-02 13:00",
+      "end": "2025-06-02 21:00"
     },
     "registration": {
-      "start": "2024-07-25",
-      "end": "2024-08-22"
+      "start": "2025-05-03",
+      "end": "2025-05-31"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Kids"
+    ],
+    "name": {
+      "ko": "도쿄 Workshop",
+      "en": "Tokyo Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "85",
+    "status": "Ongoing",
+    "startDate": "2024-01-07",
+    "endDate": "2024-01-08",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2024-01-07 13:00",
+      "end": "2024-01-08 21:00"
+    },
+    "registration": {
+      "start": "2023-12-08",
+      "end": "2024-01-05"
     },
     "category": "Cypher",
     "formats": [
-      "Footwork",
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "뉴욕 Cypher",
+      "en": "New York Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "뉴욕",
+        "en": "New York"
+      },
+      "country": {
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "86",
+    "status": "Cancelled",
+    "startDate": "2025-11-20",
+    "endDate": "2025-11-20",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-11-20 13:00",
+      "end": "2025-11-20 21:00"
+    },
+    "registration": {
+      "start": "2025-10-21",
+      "end": "2025-11-18"
+    },
+    "category": "Competition",
+    "formats": [
+      "2vs2",
+      "7 to smoke",
+      "Others"
+    ],
+    "name": {
+      "ko": "도쿄 Competition",
+      "en": "Tokyo Competition"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "87",
+    "status": "Done",
+    "startDate": "2024-04-29",
+    "endDate": "2024-04-29",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2024-04-29 13:00",
+      "end": "2024-04-29 21:00"
+    },
+    "registration": {
+      "start": "2024-03-30",
+      "end": "2024-04-27"
+    },
+    "category": "Cypher",
+    "formats": [
+      "Others",
       "Kids",
       "3vs3"
     ],
@@ -3271,139 +3385,23 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "85",
-    "status": "Standby",
-    "startDate": "2025-09-09",
-    "endDate": "2025-09-09",
+    "id": "88",
+    "status": "Cancelled",
+    "startDate": "2025-03-11",
+    "endDate": "2025-03-11",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-09-09 13:00",
-      "end": "2025-09-09 21:00"
+      "start": "2025-03-11 13:00",
+      "end": "2025-03-11 21:00"
     },
     "registration": {
-      "start": "2025-08-10",
-      "end": "2025-09-07"
-    },
-    "category": "Workshop",
-    "formats": [
-      "B-Girls"
-    ],
-    "name": {
-      "ko": "뉴욕 Workshop",
-      "en": "New York Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "뉴욕",
-        "en": "New York"
-      },
-      "country": {
-        "ko": "미국",
-        "en": "USA"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "86",
-    "status": "Ongoing",
-    "startDate": "2024-06-19",
-    "endDate": "2024-06-20",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-06-19 13:00",
-      "end": "2024-06-20 21:00"
-    },
-    "registration": {
-      "start": "2024-05-20",
-      "end": "2024-06-17"
-    },
-    "category": "Battle",
-    "formats": [
-      "Kids"
-    ],
-    "name": {
-      "ko": "서울 Battle",
-      "en": "Seoul Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "87",
-    "status": "Done",
-    "startDate": "2024-01-19",
-    "endDate": "2024-01-20",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-01-19 13:00",
-      "end": "2024-01-20 21:00"
-    },
-    "registration": {
-      "start": "2023-12-20",
-      "end": "2024-01-17"
-    },
-    "category": "Battle",
-    "formats": [
-      "Footwork",
-      "Kids"
-    ],
-    "name": {
-      "ko": "부산 Battle",
-      "en": "Busan Battle"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "부산",
-        "en": "Busan"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "88",
-    "status": "Ongoing",
-    "startDate": "2024-08-10",
-    "endDate": "2024-08-12",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-08-10 13:00",
-      "end": "2024-08-12 21:00"
-    },
-    "registration": {
-      "start": "2024-07-11",
-      "end": "2024-08-08"
+      "start": "2025-02-09",
+      "end": "2025-03-09"
     },
     "category": "Cypher",
     "formats": [
-      "B-Girls",
-      "Kids",
-      "Footwork"
+      "Powermove",
+      "Team"
     ],
     "name": {
       "ko": "도쿄 Cypher",
@@ -3427,100 +3425,22 @@
   },
   {
     "id": "89",
-    "status": "Standby",
-    "startDate": "2024-12-04",
-    "endDate": "2024-12-06",
-    "isMultiDay": true,
-    "event_time": {
-      "start": "2024-12-04 13:00",
-      "end": "2024-12-06 21:00"
-    },
-    "registration": {
-      "start": "2024-11-04",
-      "end": "2024-12-02"
-    },
-    "category": "Jam",
-    "formats": [
-      "Toprock",
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "도쿄 Jam",
-      "en": "Tokyo Jam"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
-      },
-      "country": {
-        "ko": "일본",
-        "en": "Japan"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "90",
-    "status": "Ongoing",
-    "startDate": "2024-07-14",
-    "endDate": "2024-07-14",
+    "status": "Upcoming",
+    "startDate": "2024-03-25",
+    "endDate": "2024-03-25",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-07-14 13:00",
-      "end": "2024-07-14 21:00"
+      "start": "2024-03-25 13:00",
+      "end": "2024-03-25 21:00"
     },
     "registration": {
-      "start": "2024-06-14",
-      "end": "2024-07-12"
-    },
-    "category": "Workshop",
-    "formats": [
-      "4vs4",
-      "Toprock",
-      "7 to smoke"
-    ],
-    "name": {
-      "ko": "서울 Workshop",
-      "en": "Seoul Workshop"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "91",
-    "status": "Cancelled",
-    "startDate": "2025-05-29",
-    "endDate": "2025-05-29",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2025-05-29 13:00",
-      "end": "2025-05-29 21:00"
-    },
-    "registration": {
-      "start": "2025-04-29",
-      "end": "2025-05-27"
+      "start": "2024-02-24",
+      "end": "2024-03-23"
     },
     "category": "Battle",
     "formats": [
-      "B-Girls"
+      "7 to smoke",
+      "2vs2"
     ],
     "name": {
       "ko": "부산 Battle",
@@ -3543,65 +3463,26 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "92",
+    "id": "90",
     "status": "Done",
-    "startDate": "2024-11-14",
-    "endDate": "2024-11-14",
+    "startDate": "2025-04-09",
+    "endDate": "2025-04-09",
     "isMultiDay": false,
     "event_time": {
-      "start": "2024-11-14 13:00",
-      "end": "2024-11-14 21:00"
+      "start": "2025-04-09 13:00",
+      "end": "2025-04-09 21:00"
     },
     "registration": {
-      "start": "2024-10-15",
-      "end": "2024-11-12"
+      "start": "2025-03-10",
+      "end": "2025-04-07"
     },
     "category": "Cypher",
-    "formats": [
-      "3vs3",
-      "1vs1"
-    ],
-    "name": {
-      "ko": "서울 Cypher",
-      "en": "Seoul Cypher"
-    },
-    "location": {
-      "venue": {
-        "ko": "NA",
-        "en": "NA"
-      },
-      "city": {
-        "ko": "서울",
-        "en": "Seoul"
-      },
-      "country": {
-        "ko": "대한민국",
-        "en": "South Korea"
-      }
-    },
-    "url": "https://www.instagram.com/p/C123456789/"
-  },
-  {
-    "id": "93",
-    "status": "Standby",
-    "startDate": "2024-04-28",
-    "endDate": "2024-04-28",
-    "isMultiDay": false,
-    "event_time": {
-      "start": "2024-04-28 13:00",
-      "end": "2024-04-28 21:00"
-    },
-    "registration": {
-      "start": "2024-03-29",
-      "end": "2024-04-26"
-    },
-    "category": "Workshop",
     "formats": [
       "4vs4"
     ],
     "name": {
-      "ko": "도쿄 Workshop",
-      "en": "Tokyo Workshop"
+      "ko": "파리 Cypher",
+      "en": "Paris Cypher"
     },
     "location": {
       "venue": {
@@ -3609,33 +3490,33 @@
         "en": "NA"
       },
       "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
+        "ko": "파리",
+        "en": "Paris"
       },
       "country": {
-        "ko": "일본",
-        "en": "Japan"
+        "ko": "프랑스",
+        "en": "France"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "94",
+    "id": "91",
     "status": "Done",
-    "startDate": "2024-12-19",
-    "endDate": "2024-12-21",
+    "startDate": "2024-03-04",
+    "endDate": "2024-03-05",
     "isMultiDay": true,
     "event_time": {
-      "start": "2024-12-19 13:00",
-      "end": "2024-12-21 21:00"
+      "start": "2024-03-04 13:00",
+      "end": "2024-03-05 21:00"
     },
     "registration": {
-      "start": "2024-11-19",
-      "end": "2024-12-17"
+      "start": "2024-02-03",
+      "end": "2024-03-02"
     },
     "category": "Others",
     "formats": [
-      "7 to smoke"
+      "Kids"
     ],
     "name": {
       "ko": "서울 Others",
@@ -3658,28 +3539,28 @@
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
-    "id": "95",
-    "status": "Standby",
-    "startDate": "2025-12-30",
-    "endDate": "2025-12-30",
+    "id": "92",
+    "status": "Done",
+    "startDate": "2024-08-20",
+    "endDate": "2024-08-20",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-12-30 13:00",
-      "end": "2025-12-30 21:00"
+      "start": "2024-08-20 13:00",
+      "end": "2024-08-20 21:00"
     },
     "registration": {
-      "start": "2025-11-30",
-      "end": "2025-12-28"
+      "start": "2024-07-21",
+      "end": "2024-08-18"
     },
-    "category": "Cypher",
+    "category": "Jam",
     "formats": [
-      "B-Girls",
-      "Kids",
-      "2vs2"
+      "Others",
+      "Powermove",
+      "Kids"
     ],
     "name": {
-      "ko": "도쿄 Cypher",
-      "en": "Tokyo Cypher"
+      "ko": "뉴욕 Jam",
+      "en": "New York Jam"
     },
     "location": {
       "venue": {
@@ -3687,12 +3568,130 @@
         "en": "NA"
       },
       "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
+        "ko": "뉴욕",
+        "en": "New York"
       },
       "country": {
-        "ko": "일본",
-        "en": "Japan"
+        "ko": "미국",
+        "en": "USA"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "93",
+    "status": "Cancelled",
+    "startDate": "2025-10-25",
+    "endDate": "2025-10-26",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2025-10-25 13:00",
+      "end": "2025-10-26 21:00"
+    },
+    "registration": {
+      "start": "2025-09-25",
+      "end": "2025-10-23"
+    },
+    "category": "Cypher",
+    "formats": [
+      "Team",
+      "B-Girls",
+      "Toprock"
+    ],
+    "name": {
+      "ko": "부산 Cypher",
+      "en": "Busan Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "94",
+    "status": "Upcoming",
+    "startDate": "2025-06-23",
+    "endDate": "2025-06-23",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-06-23 13:00",
+      "end": "2025-06-23 21:00"
+    },
+    "registration": {
+      "start": "2025-05-24",
+      "end": "2025-06-21"
+    },
+    "category": "Workshop",
+    "formats": [
+      "Others",
+      "2vs2"
+    ],
+    "name": {
+      "ko": "파리 Workshop",
+      "en": "Paris Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "파리",
+        "en": "Paris"
+      },
+      "country": {
+        "ko": "프랑스",
+        "en": "France"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "95",
+    "status": "Done",
+    "startDate": "2025-02-25",
+    "endDate": "2025-02-25",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2025-02-25 13:00",
+      "end": "2025-02-25 21:00"
+    },
+    "registration": {
+      "start": "2025-01-26",
+      "end": "2025-02-23"
+    },
+    "category": "Workshop",
+    "formats": [
+      "3vs3",
+      "7 to smoke"
+    ],
+    "name": {
+      "ko": "부산 Workshop",
+      "en": "Busan Workshop"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "부산",
+        "en": "Busan"
+      },
+      "country": {
+        "ko": "대한민국",
+        "en": "South Korea"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
@@ -3700,25 +3699,25 @@
   {
     "id": "96",
     "status": "Ongoing",
-    "startDate": "2024-11-07",
-    "endDate": "2024-11-08",
-    "isMultiDay": true,
+    "startDate": "2024-03-19",
+    "endDate": "2024-03-19",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2024-11-07 13:00",
-      "end": "2024-11-08 21:00"
+      "start": "2024-03-19 13:00",
+      "end": "2024-03-19 21:00"
     },
     "registration": {
-      "start": "2024-10-08",
-      "end": "2024-11-05"
+      "start": "2024-02-18",
+      "end": "2024-03-17"
     },
-    "category": "Others",
+    "category": "Battle",
     "formats": [
-      "Others",
-      "B-Girls"
+      "Footwork",
+      "4vs4"
     ],
     "name": {
-      "ko": "도쿄 Others",
-      "en": "Tokyo Others"
+      "ko": "부산 Battle",
+      "en": "Busan Battle"
     },
     "location": {
       "venue": {
@@ -3726,39 +3725,39 @@
         "en": "NA"
       },
       "city": {
-        "ko": "도쿄",
-        "en": "Tokyo"
+        "ko": "부산",
+        "en": "Busan"
       },
       "country": {
-        "ko": "일본",
-        "en": "Japan"
+        "ko": "대한민국",
+        "en": "South Korea"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
     "id": "97",
-    "status": "Cancelled",
-    "startDate": "2024-08-28",
-    "endDate": "2024-08-30",
-    "isMultiDay": true,
+    "status": "Upcoming",
+    "startDate": "2025-02-17",
+    "endDate": "2025-02-17",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2024-08-28 13:00",
-      "end": "2024-08-30 21:00"
+      "start": "2025-02-17 13:00",
+      "end": "2025-02-17 21:00"
     },
     "registration": {
-      "start": "2024-07-29",
-      "end": "2024-08-26"
+      "start": "2025-01-18",
+      "end": "2025-02-15"
     },
-    "category": "Others",
+    "category": "Battle",
     "formats": [
-      "Powermove",
-      "Team",
-      "Kids"
+      "Footwork",
+      "2vs2",
+      "Team"
     ],
     "name": {
-      "ko": "부산 Others",
-      "en": "Busan Others"
+      "ko": "부산 Battle",
+      "en": "Busan Battle"
     },
     "location": {
       "venue": {
@@ -3779,22 +3778,22 @@
   {
     "id": "98",
     "status": "Cancelled",
-    "startDate": "2024-01-01",
-    "endDate": "2024-01-01",
-    "isMultiDay": false,
+    "startDate": "2024-08-02",
+    "endDate": "2024-08-04",
+    "isMultiDay": true,
     "event_time": {
-      "start": "2024-01-01 13:00",
-      "end": "2024-01-01 21:00"
+      "start": "2024-08-02 13:00",
+      "end": "2024-08-04 21:00"
     },
     "registration": {
-      "start": "2023-12-02",
-      "end": "2023-12-30"
+      "start": "2024-07-03",
+      "end": "2024-07-31"
     },
     "category": "Battle",
     "formats": [
-      "Footwork",
-      "4vs4",
-      "Team"
+      "Powermove",
+      "Toprock",
+      "7 to smoke"
     ],
     "name": {
       "ko": "파리 Battle",
@@ -3818,26 +3817,27 @@
   },
   {
     "id": "99",
-    "status": "Standby",
-    "startDate": "2025-10-26",
-    "endDate": "2025-10-26",
+    "status": "Done",
+    "startDate": "2024-08-19",
+    "endDate": "2024-08-19",
     "isMultiDay": false,
     "event_time": {
-      "start": "2025-10-26 13:00",
-      "end": "2025-10-26 21:00"
+      "start": "2024-08-19 13:00",
+      "end": "2024-08-19 21:00"
     },
     "registration": {
-      "start": "2025-09-26",
-      "end": "2025-10-24"
+      "start": "2024-07-20",
+      "end": "2024-08-17"
     },
     "category": "Workshop",
     "formats": [
+      "Kids",
       "Footwork",
-      "3vs3"
+      "4vs4"
     ],
     "name": {
-      "ko": "파리 Workshop",
-      "en": "Paris Workshop"
+      "ko": "뉴욕 Workshop",
+      "en": "New York Workshop"
     },
     "location": {
       "venue": {
@@ -3845,37 +3845,189 @@
         "en": "NA"
       },
       "city": {
-        "ko": "파리",
-        "en": "Paris"
+        "ko": "뉴욕",
+        "en": "New York"
       },
       "country": {
-        "ko": "프랑스",
-        "en": "France"
+        "ko": "미국",
+        "en": "USA"
       }
     },
     "url": "https://www.instagram.com/p/C123456789/"
   },
   {
     "id": "100",
-    "status": "Standby",
-    "startDate": "2025-11-03",
-    "endDate": "2025-11-04",
-    "isMultiDay": true,
+    "status": "Cancelled",
+    "startDate": "2024-02-07",
+    "endDate": "2024-02-07",
+    "isMultiDay": false,
     "event_time": {
-      "start": "2025-11-03 13:00",
-      "end": "2025-11-04 21:00"
+      "start": "2024-02-07 13:00",
+      "end": "2024-02-07 21:00"
     },
     "registration": {
-      "start": "2025-10-04",
-      "end": "2025-11-01"
+      "start": "2024-01-08",
+      "end": "2024-02-05"
     },
-    "category": "Jam",
+    "category": "Cypher",
     "formats": [
-      "Others"
+      "4vs4"
     ],
     "name": {
-      "ko": "파리 Jam",
-      "en": "Paris Jam"
+      "ko": "도쿄 Cypher",
+      "en": "Tokyo Cypher"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "도쿄",
+        "en": "Tokyo"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.instagram.com/p/C123456789/"
+  },
+  {
+    "id": "wdsf-8752",
+    "status": "Upcoming",
+    "startDate": "2026-08-27",
+    "endDate": "2026-08-27",
+    "isMultiDay": false,
+    "event_time": {
+      "start": "2026-08-27 13:00",
+      "end": "2026-08-27 21:00"
+    },
+    "registration": {
+      "start": "",
+      "end": ""
+    },
+    "category": "Competition",
+    "formats": [
+      "Youth"
+    ],
+    "name": {
+      "ko": "BfG 인터내셔널 시리즈: 유스 브레이킹",
+      "en": "BfG International Series: Youth Breaking"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "포르투",
+        "en": "Porto"
+      },
+      "country": {
+        "ko": "포르투갈",
+        "en": "Portugal"
+      }
+    },
+    "url": "https://www.worlddancesport.org/Events/Porto-Portugal-27082026-8752"
+  },
+  {
+    "id": "wdsf-8676",
+    "status": "Upcoming",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2026-10-02 13:00",
+      "end": "2026-10-03 21:00"
+    },
+    "registration": {
+      "start": "",
+      "end": ""
+    },
+    "category": "Competition",
+    "formats": [
+      "Adult"
+    ],
+    "name": {
+      "ko": "대륙간 경기: 성인 브레이킹",
+      "en": "Continental Games: Adult Breaking"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "나고야",
+        "en": "Nagoya"
+      },
+      "country": {
+        "ko": "일본",
+        "en": "Japan"
+      }
+    },
+    "url": "https://www.worlddancesport.org/Events/Nagoya-Japan-02102026-03102026-8676"
+  },
+  {
+    "id": "wdsf-8597",
+    "status": "Upcoming",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2026-11-12 13:00",
+      "end": "2026-11-13 21:00"
+    },
+    "registration": {
+      "start": "",
+      "end": ""
+    },
+    "category": "Competition",
+    "formats": [
+      "Youth"
+    ],
+    "name": {
+      "ko": "유스 올림픽 경기: 유스 브레이킹",
+      "en": "Youth Olympic Games: Youth Breaking"
+    },
+    "location": {
+      "venue": {
+        "ko": "NA",
+        "en": "NA"
+      },
+      "city": {
+        "ko": "다카르",
+        "en": "Dakar"
+      },
+      "country": {
+        "ko": "세네갈",
+        "en": "Senegal"
+      }
+    },
+    "url": "https://www.worlddancesport.org/Events/Dakar-Senegal-12112026-13112026-8597"
+  },
+  {
+    "id": "wdsf-8805",
+    "status": "Upcoming",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-06",
+    "isMultiDay": true,
+    "event_time": {
+      "start": "2026-12-04 13:00",
+      "end": "2026-12-06 21:00"
+    },
+    "registration": {
+      "start": "",
+      "end": ""
+    },
+    "category": "Competition",
+    "formats": [
+      "Adult"
+    ],
+    "name": {
+      "ko": "세계 브레이킹 선수권 대회",
+      "en": "World Championships: Adult Breaking"
     },
     "location": {
       "venue": {
@@ -3891,6 +4043,6 @@
         "en": "France"
       }
     },
-    "url": "https://www.instagram.com/p/C123456789/"
+    "url": "https://www.worlddancesport.org/Events/Paris-France-04122026-06122026-8805"
   }
 ]

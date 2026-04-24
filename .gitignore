@@ -39,3 +39,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+\n# Python\n.venv/\n__pycache__/\n*.pyc
