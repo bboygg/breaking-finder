@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export', // Required for GitHub Pages
+    basePath: '/breaking-finder', // Match your repository name
     images: {
         unoptimized: true, 
     },
-    // If your repo name is 'breaking-finder', you might need this:
-    // basePath: '/breaking-finder',
 };
 
 export default nextConfig;
