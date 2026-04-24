@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export', // Required for GitHub Pages
-    basePath: '/breaking-finder', // Match your repository name
+    // basePath removed because custom domain breakingfinder.com uses root path
     images: {
         unoptimized: true, 
     },
